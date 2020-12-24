@@ -8,3 +8,4 @@ diff.py
 根目录
 !YS_dict.txt
 !field_app_to_be_confirmed.txt
+translation_workbench_process/__pycache__*

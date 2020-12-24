@@ -1,6 +1,16 @@
 YS_final_excel:
     index0: 领域名称
     index1: 应用名称
+    headings:
+     - 产品线编码
+     - 领域编码
+     - 领域名称
+     - 应用编码
+     - 应用名称
+     - 资源编码
+     - 简体中文(源)
+     - English(译)
+     - 备注
     log_path: .  # log文件的路径（与需增添数据的文件路径不同）   
     pending_data_path: ..\translation_workbench_data # 待手动处理的数据的文件保存路径
     backup_path: \\172.20.56.15\d\YS-Final\backup
@@ -14,6 +24,88 @@ YS_final_excel:
     YS_final_path: \\172.20.56.15\d\YS-Final
     YS_dict_txt_path: ..\translation_workbench_data\YS_dict.txt
     field_app_to_be_confirmed_txt_path: ..\translation_workbench_data\field_app_to_be_confirmed.txt
+
+excel_style:
+        # _style_to_xlwt(cls, item, firstlevel=True, field_sep=',', line_sep=';'):
+        # helper which recursively generate an xlwt easy style string → easyxf()
+        # for example:
+        #     hstyle = {"font": {"bold": True},
+        #           "border": {"top": "thin",
+        #                  "right": "thin",
+        #                 "bottom": "thin",
+        #                 "left": "thin"},
+        #                 "align": {"horiz": "center"}}
+        # will be converted to
+        #     font: bold on; 
+        #     border: top thin, right thin, bottom thin, left thin; 
+        #     align: horiz center;
+
+    # 首行的格式
+    head_style:
+      font: 
+        bold: True
+        name: SimSun
+        height: 240 # 20*12
+      pattern:
+        pattern: solid
+        fore-colour: grey25 # 22 light grey
+      align:
+        wrap: False
+        vert: center
+        horiz: center
+      borders:
+        top: 2
+        bottom: 2
+        left: 2
+        right: 2
+    other_style:
+      font:
+        bold: False
+        name: SimSun
+        height: 220 # 20*11
+      pattern:
+        pattern: solid
+        fore-color: 1 # white
+      align:
+        wrap: False
+      borders:
+        top: 1
+        bottom: 1
+        left: 1
+        right: 1
+           
+           
+    #head_font_name: SimSun
+    #head_font_height: 20*11 # 字体大小
+    #head_font: 20*26 # Font()中的行高
+    #head_bold: True
+    # partern()设置单元格背景颜色
+    #head_pattern_fore_colour: 22 # light grey
+    # 冻结窗口为真
+    set_panes_frozen: True
+    #set_horz_split_pos: 1 # 第一行水平冻结
+    
+    # Font()用来设置单元格字体内容，如字体类型、大小等
+    #font_name: SimSun  # 宋体
+    #font_height: 20 * 11  # 字体大小为11，字体大小的基本单位是20.
+    #font_bold: False # 设置字体为不加粗
+    #font_pattern_fore_colour: 1 # white
+    # alignment()用来设置了字体水平居中、垂直居中、自动换行
+    #alignment_wrap: 0 # 自动换行
+    
+    width:
+     - 256*12 # 宽度的基本单位为256
+     - 256*10
+     - 256*16
+     - 256*10
+     - 256*16
+     - 256*28
+     - 256*45
+     - 256*65
+     - 256*48
+    head_height: 20*26
+    height: 20*15
+
 
 logging:
     version: 1
