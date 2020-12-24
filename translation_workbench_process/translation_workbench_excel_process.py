@@ -1,11 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[376]:
-
-
-#!/usr/bin/python
-# -*- coding: UTF-8 -*-
 import time
 import xlrd # xlrd 版本1.2.0，高版本不能同时支持xlsx
 import xlwt
@@ -23,15 +18,7 @@ import Ipynb_importer
 
 import ntpath
 
-
-# In[343]:
-
-
 from config_handler import YamlHandler  # config_handler 是ipynb文件，需先导入Ipynb_importer解析
-
-
-# In[316]:
-
 
 #打开excel文件
 def open_excel(file):
@@ -43,20 +30,12 @@ def open_excel(file):
         logging.error('Error', exc_info=True)
     return
 
-
-# In[317]:
-
-
 # 创建指定路径excel文件
 def create_excel(file_path):
     workbook = xlwt.Workbook(encoding='utf-8')       #新建工作簿
     sheet1 = workbook.add_sheet("sheet1")            #新建sheet
     workbook.save(file_path)                         #保存
     return
-
-
-# In[318]:
-
 
 # 向已存在excel中写入多行数据
 '''
@@ -65,6 +44,7 @@ valueli=[["3","明明如月","女","听歌","2030.07.01"],
          ["4","志刚志强","男","学习","2019.07.01"],]
 '''
 def write_excel_append(path, value):
+    path_xls = ntpath.splitext(path)[0]+'.xls'
     rows_append_num = len(value)  # 获取需要写入数据的行数
     workbook = open_excel(path)  # 打开工作簿
     sheets = workbook.sheet_names()  # 获取工作簿中的所有表格
@@ -73,22 +53,16 @@ def write_excel_append(path, value):
     new_workbook = copy(workbook)  # 将xlrd对象拷贝转化为xlwt对象
     new_worksheet = new_workbook.get_sheet(0)  # 获取转化后工作簿中的第一个表格
     logging.info('#################################################################################################################')
-    logging.info('%s 写入数据', os.path.abspath(path))
     for i in tqdm(range(0, rows_append_num)):
         logging.info(value[i])
         for j in range(0, len(value[i])):
             new_worksheet.write(i+rows_origin_num, j, value[i][j])  # 追加写入数据，注意是从i+rows_old行开始写入
-    new_workbook.save(path)  # 保存工作簿
-    print(os.path.abspath(path) + " 写入数据成功！\n")
+    new_workbook.save(path_xls)  # 保存工作簿
+    print(os.path.abspath(path_xls) + " 写入数据成功！\n")
     print('###########################################################################################################')
-    logging.info('%s 写入数据成功', os.path.abspath(path))
+    logging.info('%s 写入数据成功', os.path.abspath(path_xls))
     logging.info('#################################################################################################################')
     return
-
-
-# In[359]:
-
-
 # 创建目录
 def mkdir(path):
     # 去除首位空格
@@ -114,11 +88,6 @@ def mkdir(path):
         print (path+' 目录已存在')
         #logging.info('%s 目录已存在', path)
         return False
-
-
-# In[361]:
-
-
 def excel_backup(file, backup_path, backup_file):
     workbook = open_excel(file)  # 打开工作簿
     new_workbook = copy(workbook)  # 将xlrd对象拷贝转化为xlwt对象
@@ -126,45 +95,13 @@ def excel_backup(file, backup_path, backup_file):
     # TODO 创建文件夹，文件名应和原文件一样，而不是backup_file
     mkdir(os.path.join(backup_path, backup_file))
     # os.path.basename 得到路径中的除去目录的基本文件名称
-    new_workbook.save(os.path.join(backup_path, backup_file, ntpath.basename(file))) # 保存工作簿
+    # 保存为xls，防止WPS编辑过导致模板不对使得xlsx打不开的问题
+    basename = ntpath.basename(file)
+    basename_no_postfix = ntpath.splitext(basename)[0]
+    new_workbook.save(os.path.join(backup_path, backup_file, basename_no_postfix+'.xls')) # 保存工作簿
     logging.info('%s 备份数据成功', os.path.abspath(file))
     print(os.path.abspath(file) + " 备份数据成功！\n")
     print('###########################################################################################################')
-
-
-# In[369]:
-
-
-os.path.basename('\\172.192.\d\YS-Final\Collab-HR-SCM-Purchasing\YS-Asset Mgmt.xlsx')
-
-
-# In[375]:
-
-
-os.path
-
-
-# In[ ]:
-
-
-
-
-
-# In[377]:
-
-
-ntpath.basename('../translation_workbench_data/未翻译内容1201+to+trans.xlsx')
-
-
-# In[374]:
-
-
-ntpath.basename('\\172.192.\d\YS-Final\Collab-HR-SCM-Purchasing\YS-Asset Mgmt.xlsx')
-
-
-# In[321]:
-
-
 # 备份数据，并将新ecxel数据分类并入已存在的ecxel文件中 by_index：表的索引
 def excel_append_process(file= '../translation_workbench_data/未翻译内容1201+to+trans.xlsx',file_temp = '../translation_workbench_data/待确认的数据.xls',backup_path = r'\\172.20.56.15\d\YS-Final\backup',backup_file = 'backup_file', by_index=0):
     data = open_excel(file) #打开excel文件
@@ -228,10 +165,6 @@ def excel_append_process(file= '../translation_workbench_data/未翻译内容120
     
     return 
 
-
-# In[322]:
-
-
 def getColumnIndex(table, columnName):
     columnIndex = None  
     for i in range(table.ncols):        
@@ -239,11 +172,6 @@ def getColumnIndex(table, columnName):
             columnIndex = i
             break
     return columnIndex
-
-
-# In[323]:
-
-
 def setup_logging(default_path='config.yaml', default_level=logging.INFO, log_file_name = 'excel_append.log'):
     yaml_path = default_path
     if os.path.exists(yaml_path):
@@ -254,23 +182,15 @@ def setup_logging(default_path='config.yaml', default_level=logging.INFO, log_fi
         logging.config.dictConfig(logging_config)
     else:
         logging.basicConfig(level=default_level)
-
-
-# In[338]:
-
-
 def get_file_temp_name(file_path, pending_data_path):
     '''
     # 待处理数据的文件路径不应与正式数据的路径相同
     path_list = file_path.split('/')[:-1]
     path = '/'.join(path_list)
     '''
-    return os.path.join(pending_data_path, '待处理数据__in__'+ ntpath.basename(file_path))
-
-
-# In[353]:
-
-
+    basename = ntpath.basename(file)
+    basename_no_postfix = ntpath.splitext(basename)[0]
+    return os.path.join(pending_data_path, '待处理数据__in__'+ basename_no_postfix + '.xls')
 def dict2txt(path,dict_temp):
     # 先创建并打开一个文本文件
     file = open(path, 'w', encoding='utf-8') # 指定编码格式，否则读取时中文乱码
@@ -283,10 +203,6 @@ def dict2txt(path,dict_temp):
 
     # 注意关闭文件
     file.close()
-
-
-# In[363]:
-
 
 def txt2dict(path):
     # 声明一个空字典，来保存文本文件数据
@@ -308,19 +224,11 @@ def txt2dict(path):
     file.close()
     return dict_temp
 
-
-# In[327]:
-
-
 # 忽略隐藏文件的listdir，如果excel文件正在被打开，则自动保存~$开头的临时文件
 def listdir_nohidden(path):
     for f in os.listdir(path):
         if not f.startswith('~$'):
             yield f
-
-
-# In[328]:
-
 
 def get_YS_final_dict(YS_final_path, YS_final_files, YS_dict_txt_path, field_app_to_be_confirmed_txt_path, index0, index1):
     # YS_final_files 是需要处理的各领域的文件夹名称（不是所有文件夹都需要处理）
@@ -372,10 +280,6 @@ def get_YS_final_dict(YS_final_path, YS_final_files, YS_dict_txt_path, field_app
     dict2txt(YS_dict_txt_path, field_to_file_dict)      
     return field_to_file_dict
 
-
-# In[364]:
-
-
 if __name__ == '__main__':
     yaml_path = 'config.yaml'
     if os.path.exists(yaml_path):
@@ -410,11 +314,7 @@ if __name__ == '__main__':
     file_temp = get_file_temp_name(file, pending_data_path)
     backup_file = current_time + 'backup'
     
-    # TODO
-    
-    # 第一次获取file_to_field_dict时用get_YS_final_dict方法
-    #file_to_field_dict = get_YS_final_dict(YS_final_path, YS_final_files, YS_dict_txt_path, field_app_to_be_confirmed_txt_path, index0, index1)
-    # 之后通过读取YS_dict_txt_path获取file_to_field_dict
+
     field_to_file_dict = txt2dict(YS_dict_txt_path)
     #file_to_field_dict
     #file_to_field_colIndex_dict
@@ -426,16 +326,5 @@ if __name__ == '__main__':
     
     excel_append_process(file=file,file_temp=file_temp,backup_path = backup_path, backup_file=backup_file, by_index=0)
     
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
 
 
