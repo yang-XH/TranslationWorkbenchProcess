@@ -1,0 +1,51 @@
+YS_final_excel:
+    index0: 领域名称
+    index1: 应用名称
+    log_path: .  # log文件的路径（与需增添数据的文件路径不同）   
+    pending_data_path: ..\translation_workbench_data # 待手动处理的数据的文件保存路径
+    backup_path: \\172.20.56.15\d\YS-Final\backup
+    # TODO 控制台输入待处理文件路径
+    #file: ../translation_workbench_data/未翻译内容1201+to+trans.xlsx
+    YS_final_files:
+     - Collab-HR-SCM-Purchasing
+     - Finance
+     - Marketing
+     - 数字化建模
+    YS_final_path: \\172.20.56.15\d\YS-Final
+    YS_dict_txt_path: ..\translation_workbench_data\YS_dict.txt
+    field_app_to_be_confirmed_txt_path: ..\translation_workbench_data\field_app_to_be_confirmed.txt
+
+logging:
+    version: 1
+    formatters:
+      brief:
+        format: "%(asctime)s - %(message)s"
+      simple:
+        format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    handlers:
+      console:
+        class : logging.StreamHandler
+        formatter: brief
+        level   : INFO
+        stream  : ext://sys.stdout
+      file:
+        class : logging.FileHandler
+        formatter: simple
+        level: DEBUG
+        filename: excel_append.log # 默认的log文件名，但程序运行中会重新加入时间信息
+        #mode: 'a'  #  追加写入
+      error:
+        class: logging.handlers.RotatingFileHandler
+        level: ERROR
+        formatter: simple
+        filename: error.log
+        maxBytes: 10485760
+        backupCount: 20
+        encoding: utf8
+    loggers: # 一个 module被其它module引用时，可以从loggers中选取需要的logger
+      main.core:
+        level: DEBUG
+        handlers: [console, file, error]
+    root: # 主入口文件(module作为整体被执行) 对应的配置
+      level: DEBUG
+      handlers: [file]

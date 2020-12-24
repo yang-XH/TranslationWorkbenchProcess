@@ -1,0 +1,298 @@
+2020-12-16 16:14:09,425 - root - INFO - #################################################################################################################
+2020-12-16 16:14:09,425 - root - INFO - C:\Users\yangx\OneDrive\桌面\profile\工作\用友实习\翻译工作台\translation_workbench_data\待处理数据__in__未翻译内容1201+to+trans.xlsx 写入数据
+2020-12-16 16:14:09,432 - root - INFO - ['产品线编码', '领域编码', '领域名称', '应用编码', '应用名称', '资源编码', '简体中文(源)', 'English(译)', '']
+2020-12-16 16:14:09,433 - root - INFO - ['', '', '', '', '', 'P_YS_FI_YYFI-UI_0001154948', '计提利息', 'Accrued Interest', '']
+2020-12-16 16:14:09,434 - root - INFO - ['', '', '', '', '', 'P_YS_FI_YYFI-UI_0001154949', '计提利息分配表', 'Accrued Interest Alloc. Table', '']
+2020-12-16 16:14:09,434 - root - INFO - ['', '', '', '', '', 'P_YS_SD_SDMB-FE_0001155501', '佣金提现审核', 'Commission Withdrawal Approval', '']
+2020-12-16 16:14:09,434 - root - INFO - ['', '', '', '', '', 'P_YS_SD_SDMB-BE_0001155463', '指定关怀时机不能为空', 'Specified caring time is required', '']
+2020-12-16 16:14:09,434 - root - INFO - ['', '', '', '', '', 'P_YS_PF_BC-FE_0001154659', '设置条件', 'Set Condition', '']
+2020-12-16 16:14:09,435 - root - INFO - ['', '', '数字化建模', 'PC-UI', '基础服务-UI模板', 'P_YS_PF_PC-UI_0001155411', '域名列表', 'Domain Name List', '']
+2020-12-16 16:14:09,435 - root - INFO - ['', '', '数字化建模', 'PC-UI', '基础服务-UI模板', 'P_YS_PF_PC-UI_0001155412', '填写品牌的编码，非必填！', 'Enter brand code (optional)', '']
+2020-12-16 16:14:09,435 - root - INFO - ['', '', '数字化建模', 'PC-UI', '基础服务-UI模板', 'P_YS_PF_PC-UI_0001155414', '来源域', 'Source Domain', '']
+2020-12-16 16:14:09,436 - root - INFO - ['', '', '数字化建模', 'PC-UI', '基础服务-UI模板', 'P_YS_PF_PC-UI_0001155415', '档案元素集合参照', 'File Element Coll. Ref', '']
+2020-12-16 16:14:09,436 - root - INFO - ['', '', '数字化建模', 'PC-UI', '基础服务-UI模板', 'P_YS_PF_PC-UI_0001155416', '档案元素集合参照显示模板', 'File Element Coll. Ref Display Template', '']
+2020-12-16 16:14:09,436 - root - INFO - ['', '', '数字化建模', 'PC-UI', '基础服务-UI模板', 'P_YS_PF_PC-UI_0001155417', '档案参照id', 'File Ref ID', '']
+2020-12-16 16:14:09,436 - root - INFO - ['', '', '数字化建模', 'PC-UI', '基础服务-UI模板', 'P_YS_PF_PC-UI_0001155418', '档案参照显示模板', 'File Ref Display Template', '']
+2020-12-16 16:14:09,436 - root - INFO - ['', '', '数字化建模', 'PC-UI', '基础服务-UI模板', 'P_YS_PF_PC-UI_0001155419', '档案来源域', 'File Source Domain', '']
+2020-12-16 16:14:09,437 - root - INFO - ['', '', '数字化建模', 'PC-UI', '基础服务-UI模板', 'P_YS_PF_PC-UI_0001155420', '档案来源域参照', 'File Source Domain Ref', '']
+2020-12-16 16:14:09,437 - root - INFO - ['', '', '数字化建模', 'PC-UI', '基础服务-UI模板', 'P_YS_PF_PC-UI_0001155421', '档案来源域参照显示模板', 'File Source Domain Ref Display Template', '']
+2020-12-16 16:14:09,437 - root - INFO - ['', '', '数字化建模', 'PC-UI', '基础服务-UI模板', 'P_YS_PF_PC-UI_0001155422', '档案返回值', 'Returned Value of File', '']
+2020-12-16 16:14:09,437 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154918', '付款申请单生单列表底部按钮', 'Pmt Appl. Doc Generation List - Bottom Button', '']
+2020-12-16 16:14:09,437 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154919', '使用部门ID', 'Operating Dept ID', '']
+2020-12-16 16:14:09,438 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154920', '入库单列表区域', 'Receipt Doc List Area', '']
+2020-12-16 16:14:09,438 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154921', '入库单列表摘要', 'Receipt Doc List Abstract', '']
+2020-12-16 16:14:09,438 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154922', '入库单列表显示模板', 'Receipt Doc List Display Template', '']
+2020-12-16 16:14:09,438 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154923', '入库单列表汇总区域', 'Receipt Doc List Summary Area', '']
+2020-12-16 16:14:09,438 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154924', '入库单列表过滤', 'Receipt Doc List Filtering', '']
+2020-12-16 16:14:09,438 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154925', '原币币种ID', 'OC ID', '']
+2020-12-16 16:14:09,439 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154926', '原币币种单价精度', 'Precision of Unit Price in OC', '']
+2020-12-16 16:14:09,439 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154927', '原币币种金额精度', 'Precision of Amt in OC', '']
+2020-12-16 16:14:09,439 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154928', '发送指令', 'Send Instruction', '']
+2020-12-16 16:14:09,439 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154929', '员工档案编号 （必输）', 'Emp. File No. (Required)', '']
+2020-12-16 16:14:09,439 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154930', '员工编号id', 'Emp. No. ID', '']
+2020-12-16 16:14:09,439 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154931', '固定资产状态ID', 'FA Status ID', '']
+2020-12-16 16:14:09,440 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154932', '固定资产类别ID', 'FA Catg. ID', '']
+2020-12-16 16:14:09,440 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154933', '开户行名 （非银联卡必输）', 'Deposit Bank Name (required for non-UnionPay cards)', '']
+2020-12-16 16:14:09,440 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154934', '开户行联行号 （跨行支付必输）', 'Deposit Bank CNAPS Code (required for inter-bank payment)', '']
+2020-12-16 16:14:09,440 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154935', '提交指令返回信息', 'Info returned from submitting instruction', '']
+2020-12-16 16:14:09,440 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154936', '是否多使用部门', 'Multi-operating Dept', '']
+2020-12-16 16:14:09,440 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154937', '是否多管理部门', 'Multi-management Dept', '']
+2020-12-16 16:14:09,441 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154938', '是否多项目', 'Multi-project', '']
+2020-12-16 16:14:09,441 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154939', '期末负债', 'Closing Liabilities', '']
+2020-12-16 16:14:09,441 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154940', '本月利息（原币）', 'Interest This Month (OC)', '']
+2020-12-16 16:14:09,441 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154941', '本月利息（本币）', 'Interest This Month (FC)', '']
+2020-12-16 16:14:09,441 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154942', '生单来源标识', 'Doc Generation Source ID', '']
+2020-12-16 16:14:09,441 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154943', '票据到期日', 'Bill Due Date', '']
+2020-12-16 16:14:09,442 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154944', '被背书供应商', 'Endorsed Supplier', '']
+2020-12-16 16:14:09,442 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154945', '被背书供应商id', 'Endorsed Supplier ID', '']
+2020-12-16 16:14:09,442 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154946', '被背书客户id', 'Endorsed Cust. ID', '']
+2020-12-16 16:14:09,442 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154947', '被背书客户名称', 'Endorsed Cust. Name', '']
+2020-12-16 16:14:09,442 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154950', '计提利息分配表列表', 'Accrued Interest Alloc. Table List', '']
+2020-12-16 16:14:09,443 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154951', '计提利息分配表列表区域', 'Accrued Interest Alloc. Table List Area', '']
+2020-12-16 16:14:09,443 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154952', '计提利息分配表列表摘要', 'Accrued Interest Alloc. Table List Abstract', '']
+2020-12-16 16:14:09,443 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154953', '计提利息分配表列表过滤', 'Accrued Interest Alloc. Table List Filtering', '']
+2020-12-16 16:14:09,443 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154954', '计提利息分配表过滤', 'Accrued Interest Alloc. Table Filtering', '']
+2020-12-16 16:14:09,443 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154955', '计提利息清单列表', 'Accrued Interest List - List', '']
+2020-12-16 16:14:09,444 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154956', '计提利息清单列表区域', 'Accrued Interest List - List Area', '']
+2020-12-16 16:14:09,444 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154957', '计提利息清单列表摘要', 'Accrued Interest List - List Abstract', '']
+2020-12-16 16:14:09,444 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154958', '计提利息清单列表过滤', 'Accrued Interest List - List Filtering', '']
+2020-12-16 16:14:09,444 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154959', '证件号码 （必输）', 'ID No. (Required)', '']
+2020-12-16 16:14:09,444 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154960', '证件类型 （必输）', 'ID Type (Required)', '']
+2020-12-16 16:14:09,444 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154961', '输入业务组织编码 ', 'Enter Business Org Code ', '']
+2020-12-16 16:14:09,445 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154962', '输入摘要 ', 'Enter Abstract ', '']
+2020-12-16 16:14:09,445 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154963', '输入用途 ', 'Enter Purpose ', '']
+2020-12-16 16:14:09,445 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154964', '输入费用项目编码 ', 'Enter Exp. Item Code ', '']
+2020-12-16 16:14:09,445 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154965', '输入部门编码 ', 'Enter Dept Code ', '']
+2020-12-16 16:14:09,445 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001154966', '输入项目编码 ', 'Enter Project Code ', '']
+2020-12-16 16:14:09,445 - root - INFO - ['', '', '财务管理', 'GL', '总账', 'P_YS_FI_GL_0001154665', '凭证已保存', 'Voucher saved', '']
+2020-12-16 16:14:09,446 - root - INFO - ['', '', '财务管理', 'GL', '总账', 'P_YS_FI_GL_0001154666', '汇兑损益是否已执行检查', 'Exchange gain/loss checked', '']
+2020-12-16 16:14:09,446 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154967', '作废成功!', 'Voided successfully', '']
+2020-12-16 16:14:09,446 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154968', '0张作废失败！', 'All Docs voided successfully', '作废失败的单据张数为0']
+2020-12-16 16:14:09,446 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154969', '无法查询到有效的银行账户信息', 'No valid bank account Info found', '']
+2020-12-16 16:14:09,446 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154970', '回单未返回', 'No receipt returned', '']
+2020-12-16 16:14:09,446 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154971', '交易类型未启用或者已删除,请检查！', 'The transaction type is not enabled or it has been deleted. Please check', '']
+2020-12-16 16:14:09,447 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154972', '月末汇兑损益计算检查', 'Month-end Ex. Gain/Loss Cal. Check', '']
+2020-12-16 16:14:09,447 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154973', '【支付状态确认成功】', '[Payment status confirmed successfully]', '']
+2020-12-16 16:14:09,447 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154974', '银行调整余额不能为空！', 'Adjusted bank balance is required', '']
+2020-12-16 16:14:09,447 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154975', '该单据已经进行回单关联，不能取消线下支付！', 'Doc has been associated with receipt. Cannot cancel offline payment', '单据已与回单相关联，不能取消线下支付！']
+2020-12-16 16:14:09,447 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154978', '【支付状态确认失败】', '[Payment status confirmation failed]', '']
+2020-12-16 16:14:09,447 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154979', '业务单据已勾对笔数:', 'Transactions cross-checked in business Doc:', '']
+2020-12-16 16:14:09,448 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154980', '该单据已经进行回单关联，不能取消结算！', 'Doc has been associated with receipt. Cannot cancel settlement', '']
+2020-12-16 16:14:09,448 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154981', '商业汇票传入的单据不能弃审', 'The Doc is submitted from Draft. Approval cannot be revoked', '']
+2020-12-16 16:14:09,448 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154982', '对账方案不能为空！', 'Reconciliation scheme is required', '']
+2020-12-16 16:14:09,448 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154985', '当前日期有异常单据未处理，不允许日结', 'There is an unprocessed exceptional Doc on the current date. Daily settlement is not allowed', '']
+2020-12-16 16:14:09,448 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154986', '该单据在现金管理已经结算,不能进行删除!', 'The Doc has been settled in Cash Mgmt. Cannot delete', '']
+2020-12-16 16:14:09,449 - root - INFO - ['', '', '', '', '', '', '', '', '']
+2020-12-16 16:14:09,449 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154988', '历史余额查询的起始日期应不大于截止日期', 'The start date of historical balance query cannot be later than the end date', '']
+2020-12-16 16:14:09,449 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154989', '数据已经删除', 'Data deleted', '']
+2020-12-16 16:14:09,449 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154990', '根据薪资支付单主键未查询到单据数据！', 'Failed to find Doc data according to salary payment Doc PK', '']
+2020-12-16 16:14:09,449 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154991', '与会计主体业务组织不匹配', 'Not matching the business Org of accounting entity', '']
+2020-12-16 16:14:09,449 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154992', '支付状态不能弃审', 'Approval cannot be revoked in the payment status', '']
+2020-12-16 16:14:09,450 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154993', '历史余额查询的截止日期应小于今天', 'The end date of historical balance query should be earlier than today', '']
+2020-12-16 16:14:09,450 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154995', '该单据已匹配关联银行电子回单，不能取消线下支付！', 'The Doc has been matched and associated with bank electronic receipt. Cannot cancel offline payment', '']
+2020-12-16 16:14:09,450 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154997', '该单据已经进行回单关联，不能取消线下支付！', 'Doc has been associated with receipt. Cannot cancel offline payment', '']
+2020-12-16 16:14:09,450 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001154999', '商业汇票传入的单据不能审核', 'The Doc is submitted from Draft. Cannot approve', '']
+2020-12-16 16:14:09,450 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155000', '交易类型非法,请导入所属薪资支付单的交易类型！', 'Invalid transaction type. Please import the transaction type of the salary payment Doc', '']
+2020-12-16 16:14:09,450 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155001', '数据权限控制校验异常:', 'Exception in verifying data permission control:', '']
+2020-12-16 16:14:09,451 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155002', '该单据已作废，不能重复作废！', 'The Doc has been voided. Cannot void again', '']
+2020-12-16 16:14:09,451 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155003', '单据结算检查', 'Doc Settlement Check', '']
+2020-12-16 16:14:09,451 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155004', '自动匹配失败', 'Auto matching failed', '']
+2020-12-16 16:14:09,451 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155006', '未查询到该单据明细信息。', 'Cannot find the Doc details', '']
+2020-12-16 16:14:09,451 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155008', '传进来的会计主体', 'Submitted Accounting Entity', '']
+2020-12-16 16:14:09,451 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155009', '当前单据支付状态不容许进行支付变更操作！', 'Cannot change payment in the current Doc payment status', '']
+2020-12-16 16:14:09,452 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155011', '没有变更的表体明细行支付状态信息，请取消保存。', 'The payment status Info in the details line of the detail is not changed. Please cancel saving', '']
+2020-12-16 16:14:09,452 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155012', '收款账号和收款户名不能为空', 'Collection account No. and account name are required', '']
+2020-12-16 16:14:09,452 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155014', '余额调节表列表新增数据不能为空！', 'The data added in the balance adjustment report list cannot be null', '']
+2020-12-16 16:14:09,452 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155015', '成功总金额和失败总金额合计不等于付款总金额，请检查！', 'The sum of the total successful Amt and total failed Amt is not equal to the total payment Amt. Please check', '']
+2020-12-16 16:14:09,452 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155017', '导入数据校验，数据重复！', 'Duplicate data found when verifying the imported data', '']
+2020-12-16 16:14:09,453 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155018', '银企联返回账号不匹配！', 'The account returned from Bank-Enterprise Link does not match', '']
+2020-12-16 16:14:09,453 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155019', '单据已勾兑不能弃审', 'Doc has been cross-checked. Approval cannot be revoked', '']
+2020-12-16 16:14:09,453 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155020', '该部门无权限，非当前会计主体及通过核算委托关系的组织下的部门，以及有职能共享关系的业务单元下的部门', 'The current Dept does not belong to the current accounting entity, an Org with accounting delegation relation, or a business unit with function sharing relation', '指的是：当前部门不在当前会计主体及通过核算委托关系的组织下的部门，以及有职能共享关系的业务单元下的部门']
+2020-12-16 16:14:09,453 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155021', '银行币别信息查询为空！', 'No bank currency Info found', '']
+2020-12-16 16:14:09,453 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155022', '【用户已作废】', '[User voided]', '']
+2020-12-16 16:14:09,453 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155023', '收款单录入金额与对账单不相等', 'The Amt entered in the collection Doc is not equal to that in the statement', '']
+2020-12-16 16:14:09,454 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155024', '支付状态不能进行作废！', 'Cannot void in the payment status', '']
+2020-12-16 16:14:09,454 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155025', '现金管理-转账单生成异常', 'Exception in generating transfer Doc in Cash Mgmt', '']
+2020-12-16 16:14:09,454 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155026', '业务单据未勾对笔数:', 'Transactions not cross-checked in business Doc:', '']
+2020-12-16 16:14:09,454 - root - INFO - ['', '', '', '', '', '', '', '', '']
+2020-12-16 16:14:09,454 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155028', '该单据已作废，不能进行线下支付操作', 'The Doc has been voided. Offline payment is not allowed', '']
+2020-12-16 16:14:09,454 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155029', '当前单据表体行存在支付状态不明的表体明细，请支付状态确认后保存！', 'There is details with unknown payment status in the detail line of the current Doc. Please save after confirming payment status', '']
+2020-12-16 16:14:09,455 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155030', '单据关闭成功!', 'Doc closed successfully', '']
+2020-12-16 16:14:09,455 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155031', '币种找不到汇率', 'Cannot find exchange rate of currency', '']
+2020-12-16 16:14:09,455 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155032', '员工编号不能为空', 'Employee No. is required', '']
+2020-12-16 16:14:09,455 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155033', '组织管控数据校验异常:', 'Exception in verifying Org control data:', '']
+2020-12-16 16:14:09,455 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155034', '新增数据成功', 'Data added successfully', '']
+2020-12-16 16:14:09,455 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155036', '后端接收参数为空！', 'No parameter received from back-end', '']
+2020-12-16 16:14:09,455 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155037', '没有有效的银行账户信息', 'No valid bank account Info', '']
+2020-12-16 16:14:09,456 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155038', '该单据正在进行审批流程，无法删除', 'The Doc is being approved. Cannot delete', '']
+2020-12-16 16:14:09,456 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155039', '该组织下正在匹配关联，请稍后再试！', 'Association matching is being performed under this Org. Please try again later', '']
+2020-12-16 16:14:09,456 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155040', '该单据已经进行回单关联，不能取消结算！', 'Doc has been associated with receipt. Cannot cancel settlement', '']
+2020-12-16 16:14:09,456 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155041', '单据审核检查', 'Doc Approval Check', '']
+2020-12-16 16:14:09,456 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155042', '已作废，不能重复作废！', 'Voided. Cannot void again', '']
+2020-12-16 16:14:09,457 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155043', '结算方式非法,结算方式业务属性必须银行业务！', 'Invalid payment method. The business property of the payment method must be banking business', '']
+2020-12-16 16:14:09,457 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155044', '已作废，不能进行线下支付操作', 'Voided. Offline payment is not allowed', '']
+2020-12-16 16:14:09,457 - root - INFO - ['', '', '财务管理', 'CM', '现金管理', 'P_YS_FI_CM_0001155045', '该会计主体现金管理模块未启用，不能保存单据！', 'The cash management module is not enabled for the accounting entity. Cannot save Doc', '']
+2020-12-16 16:14:09,457 - root - INFO - ['', '', '财务管理', 'OMC', '终端ERP前端', 'P_YS_FI_OMC_0001154738', '该背书办理单已经不存在或者不是应收应付推单生成，不能联查单据！', "The endorsement processing Doc no longer exists or it's not pushed from A/R or A/P. Doc linked query is not allowed", '']
+2020-12-16 16:14:09,457 - root - INFO - ['', '', '财务管理', 'OMC', '终端ERP前端', 'P_YS_FI_OMC_0001155048', '付款金额不得小于等于0！', 'Payment Amt cannot be less than or equal to 0', '']
+2020-12-16 16:14:09,457 - root - INFO - ['', '', '财务管理', 'OMC', '终端ERP前端', 'P_YS_FI_OMC_0001155473', '关闭单据后将无法进行后续操作，是否关闭？', 'Subsequent operations cannot be performed after closing Doc. Close?', '']
+2020-12-16 16:14:09,458 - root - INFO - ['', '', '财务管理', 'OMC', '终端ERP前端', 'P_YS_FI_OMC_0001155641', '到期日终止日期不能为空！', 'Face Maturity Date Query To is required', '']
+2020-12-16 16:14:09,458 - root - INFO - ['', '', '财务管理', 'OMC', '终端ERP前端', 'P_YS_FI_OMC_0001155642', '到期日起始日期不能为空！', 'Face Maturity Date Query Fm is required', '']
+2020-12-16 16:14:09,458 - root - INFO - ['', '', '财务管理', 'IA', '存货核算', 'P_YS_FI_IA_0001155732', '领料调入', 'Picking Transfer-in', '']
+2020-12-16 16:14:09,458 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001155728', '源头行id', 'Orig. Source Line ID', '']
+2020-12-16 16:14:09,458 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001155727', '批量解质押', 'Batch Pledging Dissolution', '']
+2020-12-16 16:14:09,458 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001155726', '批量状态确定', 'Batch Status Confirmation', '']
+2020-12-16 16:14:09,459 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001155729', '状态确定', 'Status Confirmation', '']
+2020-12-16 16:14:09,459 - root - INFO - ['', '', '财务管理', 'YYFI-UI', '财务-UI模板', 'P_YS_FI_YYFI-UI_0001155725', '合计收款占用金额', 'Total Coll. Amt in Use', '']
+2020-12-16 16:14:09,482 - root - INFO - C:\Users\yangx\OneDrive\桌面\profile\工作\用友实习\翻译工作台\translation_workbench_data\待处理数据__in__未翻译内容1201+to+trans.xlsx 写入数据成功
+2020-12-16 16:14:09,482 - root - INFO - #################################################################################################################
+2020-12-16 16:14:09,482 - root - INFO - #################################################################################################################
+2020-12-16 16:14:09,485 - root - INFO - 文件: C:\Users\yangx\OneDrive\桌面\profile\工作\用友实习\翻译工作台\translation_workbench_data\待处理数据__in__未翻译内容1201+to+trans.xlsx 中有数据待处理
+2020-12-16 16:14:13,300 - root - INFO - #################################################################################################################
+2020-12-16 16:14:13,311 - root - INFO - \\172.20.56.15\d\YS-Final\backup\202012161614backup 创建成功
+2020-12-16 16:14:13,953 - root - INFO - \\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-HR-多模块.xlsx 备份数据成功
+2020-12-16 16:14:16,432 - root - INFO - #################################################################################################################
+2020-12-16 16:14:16,433 - root - INFO - \\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-HR-多模块.xlsx 写入数据
+2020-12-16 16:14:16,434 - root - INFO - ['', '', '人力资源', 'HRJXF', '绩效管理前端', 'P_YS_HR_HRJXF_0001155190', '请选择连续考核等级', 'Please select consecutive appraisal grades', '']
+2020-12-16 16:14:16,434 - root - INFO - ['', '', '人力资源', 'HRJXF', '绩效管理前端', 'P_YS_HR_HRJXF_0001155191', '强分规则已被方案使用', 'Forced distribution rule has been used by scheme', '']
+2020-12-16 16:14:16,434 - root - INFO - ['', '', '人力资源', 'HRJXF', '绩效管理前端', 'P_YS_HR_HRJXF_0001155192', '考核关系的方案名称不能为空', 'Scheme name in appraisal relationship is required', '']
+2020-12-16 16:14:16,434 - root - INFO - ['', '', '人力资源', 'HRJXF', '绩效管理前端', 'P_YS_HR_HRJXF_0001155193', '考核关系的方案名称不能重复', 'Scheme name in appraisal relationship cannot be duplicate', '']
+2020-12-16 16:14:16,435 - root - INFO - ['', '', '人力资源', 'HRJXF', '绩效管理前端', 'P_YS_HR_HRJXF_0001155194', '所选数据均已存在。', 'All the selected data already exists', '']
+2020-12-16 16:14:16,435 - root - INFO - ['', '', '人力资源', 'HRJXF', '绩效管理前端', 'P_YS_HR_HRJXF_0001155195', '等级选择重复', 'Duplicate grade selected', '']
+2020-12-16 16:14:16,435 - root - INFO - ['', '', '人力资源', 'HRJXF', '绩效管理前端', 'P_YS_HR_HRJXF_0001155196', '上级分类已停用', 'Parent category has been disabled', '']
+2020-12-16 16:14:16,435 - root - INFO - ['', '', '人力资源', 'HRJXF', '绩效管理前端', 'P_YS_HR_HRJXF_0001155197', '考核关系的方案名称不能为空', 'Scheme name in appraisal relationship is required', '']
+2020-12-16 16:14:16,435 - root - INFO - ['', '', '人力资源', 'HRJXF', '绩效管理前端', 'P_YS_HR_HRJXF_0001155198', '该考核关系已经被使用，无法删除。', 'The appraisal relationship is in use. Cannot delete', '']
+2020-12-16 16:14:16,435 - root - INFO - ['', '', '人力资源', 'HRJXF', '绩效管理前端', 'P_YS_HR_HRJXF_0001155199', '请选择连续考核等级', 'Please select consecutive appraisal grades', '']
+2020-12-16 16:14:16,436 - root - INFO - ['', '', '人力资源', 'HRJXF', '绩效管理前端', 'P_YS_HR_HRJXF_0001155200', '强分规则名称重复', 'Duplicate forced distribution rule name', '']
+2020-12-16 16:14:16,436 - root - INFO - ['', '', '人力资源', 'HRJXF', '绩效管理前端', 'P_YS_HR_HRJXF_0001155201', '代理方案名称已存在', 'Delegation scheme name already exists', '']
+2020-12-16 16:14:16,436 - root - INFO - ['', '', '人力资源', 'HRJXF', '绩效管理前端', 'P_YS_HR_HRJXF_0001155202', '等级明细设置不完整', 'Incomplete grade details settings', '']
+2020-12-16 16:14:16,436 - root - INFO - ['', '', '人力资源', 'HRJQF', '假勤管理前端', 'P_YS_HR_HRJQF_0001155889', '加班递增时长不能为0', 'Overtime increment time cannot be 0', '']
+2020-12-16 16:14:16,436 - root - INFO - ['', '', '人力资源', 'HRJQF', '假勤管理前端', 'P_YS_HR_HRJQF_0001155888', '最小加班时长不能为0', 'Min overtime length cannot be 0', '']
+2020-12-16 16:14:16,437 - root - INFO - ['', '', '人力资源', 'HRPT', '自动报税', 'P_YS_HR_HRPT_0001155722', '%s,请重新生成汇总表！', ' %s. Please regenerate summary', '']
+2020-12-16 16:14:16,437 - root - INFO - ['', '', '人力资源', 'HRPT', '自动报税', 'P_YS_HR_HRPT_0001155718', '【%s】正在报送，不能修改！', '[%s] is being submitted. Cannot modify', '']
+2020-12-16 16:14:16,437 - root - INFO - ['', '', '人力资源', 'HRPT', '自动报税', 'P_YS_HR_HRPT_0001155721', '组织【%s】已设置为申报组织，不能重复设置！', 'Org [%s] has been set as the declaration Org. Cannot set again', '']
+2020-12-16 16:14:16,437 - root - INFO - ['', '', '人力资源', 'HRPT', '自动报税', 'P_YS_HR_HRPT_0001155720', '减免税事项不能为空！', 'Tax relief matters are required', '']
+2020-12-16 16:14:16,437 - root - INFO - ['', '', '人力资源', 'HRPT', '自动报税', 'P_YS_HR_HRPT_0001155723', '请填写减免税事项附表！', 'Please enter the appendix of tax relief matters', '']
+2020-12-16 16:14:16,437 - root - INFO - ['', '', '人力资源', 'HRPT', '自动报税', 'P_YS_HR_HRPT_0001155719', '未查询到【%s】的【免税收入/减免税额】数据！', 'Failed to find [Tax-Exempt Income/Tax Reliefs] data of [%s]', '']
+2020-12-16 16:14:17,010 - root - INFO - \\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-HR-多模块.xlsx 写入数据成功
+2020-12-16 16:14:17,010 - root - INFO - #################################################################################################################
+2020-12-16 16:14:18,197 - root - INFO - #################################################################################################################
+2020-12-16 16:14:18,399 - root - INFO - \\172.20.56.15\d\YS-Final\Marketing\YS-营销服务-商品中心.xlsx 备份数据成功
+2020-12-16 16:14:19,085 - root - INFO - #################################################################################################################
+2020-12-16 16:14:19,085 - root - INFO - \\172.20.56.15\d\YS-Final\Marketing\YS-营销服务-商品中心.xlsx 写入数据
+2020-12-16 16:14:19,087 - root - INFO - ['', '', '数字化建模', 'PROCENTER', '商品中心', 'P_YS_PF_PROCENTER_0001155051', '已经被引用，不能修改上级！', 'Referenced. Cannot modify parent', '']
+2020-12-16 16:14:19,087 - root - INFO - ['', '', '数字化建模', 'PROCENTER', '商品中心', 'P_YS_PF_PROCENTER_0001155638', '不支持的操作。', 'Unsupported operation', '']
+2020-12-16 16:14:19,088 - root - INFO - ['', '', '数字化建模', 'PROCENTER', '商品中心', 'P_YS_PF_PROCENTER_0001155639', '未找到物料信息。', 'No material Info found', '']
+2020-12-16 16:14:19,299 - root - INFO - \\172.20.56.15\d\YS-Final\Marketing\YS-营销服务-商品中心.xlsx 写入数据成功
+2020-12-16 16:14:19,300 - root - INFO - #################################################################################################################
+2020-12-16 16:14:22,429 - root - INFO - #################################################################################################################
+2020-12-16 16:14:23,273 - root - INFO - \\172.20.56.15\d\YS-Final\数字化建模\YS-数字化建模-元数据-20191205.xlsx 备份数据成功
+2020-12-16 16:14:26,215 - root - INFO - #################################################################################################################
+2020-12-16 16:14:26,215 - root - INFO - \\172.20.56.15\d\YS-Final\数字化建模\YS-数字化建模-元数据-20191205.xlsx 写入数据
+2020-12-16 16:14:26,216 - root - INFO - ['', '', '数字化建模', 'METADATA', '元数据', 'P_YS_PF_METADATA_0001155701', '地址组件', 'Address Component', '']
+2020-12-16 16:14:26,217 - root - INFO - ['', '', '数字化建模', 'METADATA', '元数据', 'P_YS_PF_METADATA_0001155702', '地址1英文', 'Address 1 (English)', '']
+2020-12-16 16:14:26,217 - root - INFO - ['', '', '数字化建模', 'METADATA', '元数据', 'P_YS_PF_METADATA_0001155703', '地址1繁体', 'Address 1 (Traditional Chinese)', '']
+2020-12-16 16:14:26,217 - root - INFO - ['', '', '数字化建模', 'METADATA', '元数据', 'P_YS_PF_METADATA_0001155704', '地址2英文', 'Address 2 (English)', '']
+2020-12-16 16:14:26,217 - root - INFO - ['', '', '数字化建模', 'METADATA', '元数据', 'P_YS_PF_METADATA_0001155705', '地址2繁体', 'Address 2 (Traditional Chinese)', '']
+2020-12-16 16:14:26,217 - root - INFO - ['', '', '数字化建模', 'METADATA', '元数据', 'P_YS_PF_METADATA_0001155706', '地址备用', 'Alternate Address', '']
+2020-12-16 16:14:26,217 - root - INFO - ['', '', '数字化建模', 'METADATA', '元数据', 'P_YS_PF_METADATA_0001155707', '地址3英文', 'Address 3 (English)', '']
+2020-12-16 16:14:26,218 - root - INFO - ['', '', '数字化建模', 'METADATA', '元数据', 'P_YS_PF_METADATA_0001155708', '地址3繁体', 'Address 3 (Traditional Chinese)', '']
+2020-12-16 16:14:26,218 - root - INFO - ['', '', '数字化建模', 'METADATA', '元数据', 'P_YS_PF_METADATA_0001155709', '地址4英文', 'Address 4 (English)', '']
+2020-12-16 16:14:26,218 - root - INFO - ['', '', '数字化建模', 'METADATA', '元数据', 'P_YS_PF_METADATA_0001155710', '地址4繁体', 'Address 4 (Traditional Chinese)', '']
+2020-12-16 16:14:27,128 - root - INFO - \\172.20.56.15\d\YS-Final\数字化建模\YS-数字化建模-元数据-20191205.xlsx 写入数据成功
+2020-12-16 16:14:27,128 - root - INFO - #################################################################################################################
+2020-12-16 16:14:28,036 - root - INFO - #################################################################################################################
+2020-12-16 16:14:28,379 - root - INFO - \\172.20.56.15\d\YS-Final\数字化建模\YS-数字化建模-支撑服务-权限-翻译工作台-帮助中心-电子合同管理.xlsx 备份数据成功
+2020-12-16 16:14:29,097 - root - INFO - #################################################################################################################
+2020-12-16 16:14:29,097 - root - INFO - \\172.20.56.15\d\YS-Final\数字化建模\YS-数字化建模-支撑服务-权限-翻译工作台-帮助中心-电子合同管理.xlsx 写入数据
+2020-12-16 16:14:29,098 - root - INFO - ['', '', '数字化建模', 'ECON-FE', '电子合同前端', 'P_YS_PF_ECON-FE_0001154653', '权限不足，请联系管理员', 'Insufficient permission. Please contact the administrator', '']
+2020-12-16 16:14:29,099 - root - INFO - ['', '', '数字化建模', 'ECON-FE', '电子合同前端', 'P_YS_PF_ECON-FE_0001154655', '线下设计暂不支持设置功能！', 'Function setting is not supported for offline design', '']
+2020-12-16 16:14:29,099 - root - INFO - ['', '', '数字化建模', 'GZTACT', '权限管理', 'P_YS_PF_GZTACT_0001154900', '删除功能权限', 'Delete Function Permission', '']
+2020-12-16 16:14:29,099 - root - INFO - ['', '', '数字化建模', 'WORKBENCH-FE', '工作台前端', 'P_YS_PF_WORKBENCH-FE_0001155883', '您购买的产品中，有应用即将到期，请及时安排续费！', 'Some Apps in the product you purchased will expire soon. Please renew in time', '']
+2020-12-16 16:14:29,100 - root - INFO - ['', '', '数字化建模', 'WORKBENCH-FE', '工作台前端', 'P_YS_PF_WORKBENCH-FE_0001155882', '您购买的产品中，有应用已到期，请尽快安排续费！', 'Some Apps in the product you purchased have expired. Please renew as soon as possible', '']
+2020-12-16 16:14:29,328 - root - INFO - \\172.20.56.15\d\YS-Final\数字化建模\YS-数字化建模-支撑服务-权限-翻译工作台-帮助中心-电子合同管理.xlsx 写入数据成功
+2020-12-16 16:14:29,329 - root - INFO - #################################################################################################################
+2020-12-16 16:14:30,258 - root - INFO - #################################################################################################################
+2020-12-16 16:14:30,707 - root - INFO - \\172.20.56.15\d\YS-Final\数字化建模\YS-MDD-界面公共元素-IMETA-20191210.xlsx 备份数据成功
+2020-12-16 16:14:31,509 - root - INFO - #################################################################################################################
+2020-12-16 16:14:31,509 - root - INFO - \\172.20.56.15\d\YS-Final\数字化建模\YS-MDD-界面公共元素-IMETA-20191210.xlsx 写入数据
+2020-12-16 16:14:31,511 - root - INFO - ['', '', '框架通用', 'MDD-BACK', 'MDD后端框架', 'P_YS_FW-PUB_MDD-BACK_0001155640', '系统码', 'System Code', '']
+2020-12-16 16:14:31,511 - root - INFO - ['', '', '界面公共元素', 'FW', 'MDD-FRAMEWORK', 'P_YS_FED_FW_0001155140', '无可用打印模板!', 'No available print template', '']
+2020-12-16 16:14:31,511 - root - INFO - ['', '', '界面公共元素', 'FW', 'MDD-FRAMEWORK', 'P_YS_FED_FW_0001155764', '您的权限不足!', 'Insufficient permission', '']
+2020-12-16 16:14:31,970 - root - INFO - \\172.20.56.15\d\YS-Final\数字化建模\YS-MDD-界面公共元素-IMETA-20191210.xlsx 写入数据成功
+2020-12-16 16:14:31,970 - root - INFO - #################################################################################################################
+2020-12-16 16:14:33,408 - root - INFO - #################################################################################################################
+2020-12-16 16:14:33,760 - root - INFO - \\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-生产制造.xlsx 备份数据成功
+2020-12-16 16:14:35,054 - root - INFO - #################################################################################################################
+2020-12-16 16:14:35,054 - root - INFO - \\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-生产制造.xlsx 写入数据
+2020-12-16 16:14:35,054 - root - INFO - ['', '', '生产制造', 'PO-BE', '生产订单后端', 'P_YS_MF_PO-BE_0001155065', '生产订单: 必填字段组织orgId不能为空！', 'Org ID in MO is required', '']
+2020-12-16 16:14:35,054 - root - INFO - ['', '', '生产制造', 'PO-BE', '生产订单后端', 'P_YS_MF_PO-BE_0001155067', '生产订单财务打开失败', 'Failed to open MO finance', '生产订单财务 关闭的标识，打开失败']
+2020-12-16 16:14:35,054 - root - INFO - ['', '', '生产制造', 'PO-BE', '生产订单后端', 'P_YS_MF_PO-BE_0001155070', '根据id没有找到可核销的委外入库单:%s', 'Failed to find the outsourcing receipt Doc to settle according to ID: %s', '']
+2020-12-16 16:14:35,054 - root - INFO - ['', '', '生产制造', 'PO-BE', '生产订单后端', 'P_YS_MF_PO-BE_0001155071', '物料%s没有找到可核销的材料出库单', 'Failed to find the material issue Doc to settle for material %s', '']
+2020-12-16 16:14:35,054 - root - INFO - ['', '', '生产制造', 'PO-BE', '生产订单后端', 'P_YS_MF_PO-BE_0001155072', '未取到默认的交易类型，请检查！', 'Failed to obtain the default transaction type. Please check', '']
+2020-12-16 16:14:35,054 - root - INFO - ['', '', '生产制造', 'PO-BE', '生产订单后端', 'P_YS_MF_PO-BE_0001155075', '物料%s出库总数量%s小于本次应核销量%s', 'For material %s, the total issue Qty %s is less than the current Qty-to-settle %s', '']
+2020-12-16 16:14:35,054 - root - INFO - ['', '', '生产制造', 'PO-BE', '生产订单后端', 'P_YS_MF_PO-BE_0001155076', '并发异常，生产订单已改变:', 'Concurrent exception. MO has changed:', '']
+2020-12-16 16:14:35,054 - root - INFO - ['', '', '生产制造', 'PO-BE', '生产订单后端', 'P_YS_MF_PO-BE_0001155077', '自动核销失败:%s', 'Auto settlement failed: %s', '']
+2020-12-16 16:14:35,054 - root - INFO - ['', '', '生产制造', 'PO-BE', '生产订单后端', 'P_YS_MF_PO-BE_0001155078', '生产订单产品行: 行号lineNo不能为空！', 'MO product line No. is required', '']
+2020-12-16 16:14:35,054 - root - INFO - ['', '', '生产制造', 'PO-BE', '生产订单后端', 'P_YS_MF_PO-BE_0001155079', '核销单无法删除，存在后续核销调整', 'Cannot delete settlement Doc. Subsequent settlement adjustment has been performed', '']
+2020-12-16 16:14:35,054 - root - INFO - ['', '', '生产制造', 'PO-BE', '生产订单后端', 'P_YS_MF_PO-BE_0001155080', '生产订单产品行: 不能全部为空！', 'All MO product lines cannot be blank', '']
+2020-12-16 16:14:35,054 - root - INFO - ['', '', '生产制造', 'PO-BE', '生产订单后端', 'P_YS_MF_PO-BE_0001155782', '保存或者新增服务器错误,%s', 'Error in saving or adding server. %s', '']
+2020-12-16 16:14:35,054 - root - INFO - ['', '', '生产制造', 'PO-BE', '生产订单后端', 'P_YS_MF_PO-BE_0001155783', '核销单无法删除，存在后续核销调整:%s', 'Cannot delete settlement Doc. Subsequent settlement adjustment has been performed: %s', '']
+2020-12-16 16:14:35,415 - root - INFO - \\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-生产制造.xlsx 写入数据成功
+2020-12-16 16:14:35,415 - root - INFO - #################################################################################################################
+2020-12-16 16:14:38,584 - root - INFO - #################################################################################################################
+2020-12-16 16:14:39,422 - root - INFO - \\172.20.56.15\d\YS-Final\Marketing\YS-营销管理-U订货及销售管理.xlsx 备份数据成功
+2020-12-16 16:14:42,114 - root - INFO - #################################################################################################################
+2020-12-16 16:14:42,115 - root - INFO - \\172.20.56.15\d\YS-Final\Marketing\YS-营销管理-U订货及销售管理.xlsx 写入数据
+2020-12-16 16:14:42,116 - root - INFO - ['', '', '营销管理', 'UDHWN', 'U订货PC端', 'P_YS_SD_UDHWN_0001154824', '该账户需要进行短信验证，现在立即验证', 'SMS verification is required for the account. Verify now', '']
+2020-12-16 16:14:42,116 - root - INFO - ['', '', '营销管理', 'UDHBN', '销售管理前端', 'P_YS_SD_UDHBN_0001154807', '到期日修改成功', 'Due date modified successfully', '']
+2020-12-16 16:14:42,116 - root - INFO - ['', '', '营销管理', 'UDHAR', 'U订货基础档案', 'P_YS_SD_UDHAR_0001155047', '查询SACT领域销售合同表头异常', 'Exception in querying sales contract header in the SACT field', '']
+2020-12-16 16:14:42,116 - root - INFO - ['', '', '营销管理', 'UDHAR', 'U订货基础档案', 'P_YS_SD_UDHAR_0001155064', '购买的商品小于最小起订量：', 'The Qty of product to purchase is less than the min order Qty:', '']
+2020-12-16 16:14:42,117 - root - INFO - ['', '', '营销管理', 'UDHAR', 'U订货基础档案', 'P_YS_SD_UDHAR_0001155470', '促销分析日志：', 'Promotion Analysis Log:', '']
+2020-12-16 16:14:42,117 - root - INFO - ['', '', '营销管理', 'UDHLIB', 'U订货核心服务', 'P_YS_SD_UDHLIB_0001155653', '客户不存在或已被删除, 请联系管理员!', "The customer doesn't exist or has been deleted. Please contact the administrator", '']
+2020-12-16 16:14:42,117 - root - INFO - ['', '', '营销管理', 'UDHMB', 'U订货营销服务后端', 'P_YS_SD_UDHMB_0001155189', '信用转移出错, 未获取到来源表体信息', 'Error in credit transfer. No source detail Info obtained', '']
+2020-12-16 16:14:42,117 - root - INFO - ['', '', '营销管理', 'UDHMB', 'U订货营销服务后端', 'P_YS_SD_UDHMB_0001155735', '返利已被使用，不允许弃审', 'Rebate is in use. Approval cannot be revoked', '']
+2020-12-16 16:14:42,904 - root - INFO - \\172.20.56.15\d\YS-Final\Marketing\YS-营销管理-U订货及销售管理.xlsx 写入数据成功
+2020-12-16 16:14:42,904 - root - INFO - #################################################################################################################
+2020-12-16 16:14:44,112 - root - INFO - #################################################################################################################
+2020-12-16 16:14:44,490 - root - INFO - \\172.20.56.15\d\YS-Final\Marketing\YS-营销管理-U零售.xlsx 备份数据成功
+2020-12-16 16:14:45,802 - root - INFO - #################################################################################################################
+2020-12-16 16:14:45,802 - root - INFO - \\172.20.56.15\d\YS-Final\Marketing\YS-营销管理-U零售.xlsx 写入数据
+2020-12-16 16:14:45,802 - root - INFO - ['', '', '营销管理', 'URETAILF', 'U零售前端', 'P_YS_SD_URETAILF_0001154674', '错误堆栈信息如下:', 'The error stack Info is as follows:', '']
+2020-12-16 16:14:46,156 - root - INFO - \\172.20.56.15\d\YS-Final\Marketing\YS-营销管理-U零售.xlsx 写入数据成功
+2020-12-16 16:14:46,156 - root - INFO - #################################################################################################################
+2020-12-16 16:14:46,876 - root - INFO - #################################################################################################################
+2020-12-16 16:14:47,094 - root - INFO - \\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-设备服务-追溯服务-研发管理.xlsx 备份数据成功
+2020-12-16 16:14:47,767 - root - INFO - #################################################################################################################
+2020-12-16 16:14:47,768 - root - INFO - \\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-设备服务-追溯服务-研发管理.xlsx 写入数据
+2020-12-16 16:14:47,769 - root - INFO - ['', '', '追溯服务', 'TBS-FE', '追溯服务-前端', 'P_YS_TBS_TBS-FE_0001154650', '防伪信息展示', 'Display Anti-counterfeiting Info', '']
+2020-12-16 16:14:47,769 - root - INFO - ['', '', '追溯服务', 'TBS-FE', '追溯服务-前端', 'P_YS_TBS_TBS-FE_0001154668', '召回占比', 'Recall Proportion', '']
+2020-12-16 16:14:47,769 - root - INFO - ['', '', '追溯服务', 'TBS-FE', '追溯服务-前端', 'P_YS_TBS_TBS-FE_0001154669', '召回次数', 'Recall Times', '']
+2020-12-16 16:14:47,975 - root - INFO - \\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-设备服务-追溯服务-研发管理.xlsx 写入数据成功
+2020-12-16 16:14:47,976 - root - INFO - #################################################################################################################
+2020-12-16 16:14:49,224 - root - INFO - #################################################################################################################
+2020-12-16 16:14:49,594 - root - INFO - \\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-供应链-采购供应.xlsx 备份数据成功
+2020-12-16 16:14:50,711 - root - INFO - #################################################################################################################
+2020-12-16 16:14:50,711 - root - INFO - \\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-供应链-采购供应.xlsx 写入数据
+2020-12-16 16:14:50,712 - root - INFO - ['', '', '采购供应', 'SACT-BE', '销售合同业务', 'P_YS_SCM_SACT-BE_0001154903', '销售合同推销售订单，不允许修改合同标的的以下属性：{0}', 'Cannot modify the following property of the contract object when pushing sales order from sales contract: {0}', '']
+2020-12-16 16:14:50,712 - root - INFO - ['', '', '采购供应', 'SACT-BE', '销售合同业务', 'P_YS_SCM_SACT-BE_0001154904', '销售合同推销售订单，不允许修改合同的以下属性：{0}', 'Cannot modify the following property of the contract when pushing sales order from sales contract: {0}', '']
+2020-12-16 16:14:50,712 - root - INFO - ['', '', '采购供应', 'SACT-UI', '销售合同-UI模板', 'P_YS_SCM_SACT-UI_0001155698', '合同类型', 'Contract Type', '']
+2020-12-16 16:14:50,713 - root - INFO - ['', '', '采购供应', 'SACT-UI', '销售合同-UI模板', 'P_YS_SCM_SACT-UI_0001155699', '合同生效方式', 'Contract Validation Method', '']
+2020-12-16 16:14:50,713 - root - INFO - ['', '', '采购供应', 'SACT-UI', '销售合同-UI模板', 'P_YS_SCM_SACT-UI_0001155700', '合同执行超限控制方式', 'Contract Execution Quota Control Method', '']
+2020-12-16 16:14:50,713 - root - INFO - ['', '', '采购供应', 'SACT-UI', '销售合同-UI模板', 'P_YS_SCM_SACT-UI_0001155711', '合同执行超限控制依据', 'Contract Execution Quota Control Basis', '']
+2020-12-16 16:14:50,713 - root - INFO - ['', '', '采购供应', 'SACT-UI', '销售合同-UI模板', 'P_YS_SCM_SACT-UI_0001155712', '容差比例', 'Tolerance Proportion', '']
+2020-12-16 16:14:50,713 - root - INFO - ['', '', '采购供应', 'SACT-BE', '销售合同业务', 'P_YS_SCM_SACT-BE_0001155960', '价格合同,含税单价不可为空', 'Unit price including tax in price contract is required', '']
+2020-12-16 16:14:50,714 - root - INFO - ['', '', '采购供应', 'SACT-BE', '销售合同业务', 'P_YS_SCM_SACT-BE_0001155781', '数量，销售数量必须录入其中一个', 'Either Qty or sales Qty must be entered', '']
+2020-12-16 16:14:50,714 - root - INFO - ['', '', '采购供应', 'SACT-BE', '销售合同业务', 'P_YS_SCM_SACT-BE_0001155961', '金额,含税金额不可为空', 'Amt and Amt including tax are required', '']
+2020-12-16 16:14:50,714 - root - INFO - ['', '', '采购供应', 'USTOCK', '采购库存后端', 'P_YS_SCM_USTOCK_0001155736', '查询不到总仓库存，请确认商品在ERP是否存在并对照', 'Failed to find the central warehouse inventory. Please confirm whether products exist in ERP and conduct cross-reference', '']
+2020-12-16 16:14:50,714 - root - INFO - ['', '', '采购供应', 'STOCK', '采购库存前端', 'P_YS_SCM_STOCK_0001155730', '请选择[是否默认]', 'Please set [Default]', '']
+2020-12-16 16:14:50,714 - root - INFO - ['', '', '采购供应', 'STOCK', '采购库存前端', 'P_YS_SCM_STOCK_0001155743', '请正确输入库存状态！', 'Please enter inventory status correctly', '']
+2020-12-16 16:14:51,103 - root - INFO - \\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-供应链-采购供应.xlsx 写入数据成功
+2020-12-16 16:14:51,103 - root - INFO - #################################################################################################################
+2020-12-16 16:14:51,617 - root - INFO - #################################################################################################################
+2020-12-16 16:14:51,791 - root - INFO - \\172.20.56.15\d\YS-Final\数字化建模\YS-数字化建模-组织管理及基础数据.xlsx 备份数据成功
+2020-12-16 16:14:52,272 - root - INFO - #################################################################################################################
+2020-12-16 16:14:52,273 - root - INFO - \\172.20.56.15\d\YS-Final\数字化建模\YS-数字化建模-组织管理及基础数据.xlsx 写入数据
+2020-12-16 16:14:52,274 - root - INFO - ['', '', '数字化建模', 'GZTORG', '组织管理', 'P_YS_PF_GZTORG_0001155846', '修改用户手机或邮箱异常,异常信息:', 'Exception in modifying user mobile No. or email. Exception Info:', '']
+2020-12-16 16:14:52,274 - root - INFO - ['', '', '数字化建模', 'GZTORG', '组织管理', 'P_YS_PF_GZTORG_0001155845', '没有用户关联的员工', 'No employee associated with user', '']
+2020-12-16 16:14:52,440 - root - INFO - \\172.20.56.15\d\YS-Final\数字化建模\YS-数字化建模-组织管理及基础数据.xlsx 写入数据成功
+2020-12-16 16:14:52,440 - root - INFO - #################################################################################################################
