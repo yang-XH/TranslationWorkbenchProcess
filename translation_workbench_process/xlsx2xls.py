@@ -1,23 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
-
-
 import Ipynb_importer
-
-
-# In[3]:
-
 
 from utils import *
 from config_handler import *
 import os
 import xlrd
-
-
-# In[8]:
-
 
 def YS_final_xlsx2xls(YS_final_path, YS_final_files):
     # YS_final_files 是需要处理的各领域的文件夹名称（不是所有文件夹都需要处理）
@@ -40,9 +29,6 @@ def YS_final_xlsx2xls(YS_final_path, YS_final_files):
     return 
 
 
-# In[ ]:
-
-
 def remove_xlsx(YS_final_path, YS_final_files):
     for final_file in YS_final_files:
         if os.path.exists(os.path.join(YS_final_path, final_file)):
@@ -56,10 +42,6 @@ def remove_xlsx(YS_final_path, YS_final_files):
                     else:
                         logging.info('%s 的xls格式文件不存在', file_xlsx_path)
                         print('{} 的xls格式文件不存在'.format( file_xlsx_path))
-
-
-# In[ ]:
-
 
 if __name__ == '__main__':
     yaml_path = 'config.yaml'

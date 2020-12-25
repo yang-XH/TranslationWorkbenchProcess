@@ -1,13 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[26]:
-
-
 import Ipynb_importer
-
-
-# In[72]:
 
 
 import yaml
@@ -20,10 +14,6 @@ from config_handler import *
 若保持原有的风格，需提取原有风格，仅仅formatting_info=True只能保证复制的数据的风格一致，不能保证新写入的或修改的数据的风格一致
 保持原有风格：https://cloud.tencent.com/developer/ask/65204
 '''
-
-
-# In[76]:
-
 
 class XlwtStyleWriter(object):
 # https://github.com/awslabs/predictive-maintenance-using-machine-learning/blob/master/source/predictive_maintenance/pandas/io/excel.py
@@ -221,9 +211,6 @@ class XlwtStyleWriter(object):
                         self.existing_xls_style_process(temp_path, headings, head_style, data_style, set_panes_frozen)
 
 
-# In[35]:
-
-
 '''
 def generate_style(name, height, wrap, pattern_fore_colour, bold=False):
     style = xlwt.XFStyle()
@@ -248,10 +235,6 @@ def generate_style(name, height, wrap, pattern_fore_colour, bold=False):
 
     return style
 '''
-
-
-# In[36]:
-
 
 if __name__=='__main__':
     
@@ -278,10 +261,5 @@ if __name__=='__main__':
     head_style =  XlwtStyleWriter._convert_to_style(head_style_dict)
     data_style = XlwtStyleWriter._convert_to_style(data_style_dict)
     a.YS_final_existing_xls_style_process( YS_final_path, YS_final_files,a.headings, head_style, data_style, set_panes_frozen=True)
-
-
-# In[ ]:
-
-
 
 

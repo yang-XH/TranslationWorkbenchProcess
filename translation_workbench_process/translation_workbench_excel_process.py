@@ -14,9 +14,6 @@
 #             - field_app_to_be_confirmed.txt中是有冲突的，待确认的应用领域、应用名称所属文件的数据，需手动添加至file_to_field_dict
 #         - 程序默认通过读取YS_dict_txt_path获取file_to_field_dict
 
-# In[1]:
-
-
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 import time
@@ -39,15 +36,7 @@ from excel_style_process import *
 from utils import *
 from xlsx2xls import *
 
-
-# In[16]:
-
-
 from config_handler import YamlHandler  # config_handler 是ipynb文件，需先导入Ipynb_importer解析
-
-
-# In[17]:
-
 
 '''
 # 向已存在excel中写入多行数据
@@ -73,10 +62,6 @@ def write_xls_append(path, value, style=xlwt.XFStyle()):
     logging.info('#################################################################################################################')
     return
 '''
-
-
-# In[18]:
-
 
 # 备份数据，并将新ecxel数据分类并入已存在的ecxel文件中 by_index：表的索引
 def excel_append_process(file,file_temp,backup_path ,backup_file , XlwtStyleWriter, head_style,data_style,by_index=0):
@@ -144,9 +129,6 @@ def excel_append_process(file,file_temp,backup_path ,backup_file , XlwtStyleWrit
     return 
 
 
-# In[19]:
-
-
 def get_file_temp_name(file_path, pending_data_path):
     '''
     # 待处理数据的文件路径不应与正式数据的路径相同
@@ -157,8 +139,6 @@ def get_file_temp_name(file_path, pending_data_path):
     basename_xls = xlsx2xls(basename)
     return os.path.join(pending_data_path, '待处理数据__in__'+ basename_xls)
 
-
-# In[20]:
 
 
 def get_YS_final_dict(YS_final_path, YS_final_files, YS_dict_txt_path, field_app_to_be_confirmed_txt_path, index0, index1):
@@ -211,9 +191,6 @@ def get_YS_final_dict(YS_final_path, YS_final_files, YS_dict_txt_path, field_app
     return field_to_file_dict
 
 
-# In[21]:
-
-
 if __name__ == '__main__':
     yaml_path = 'config.yaml'
     read_config = YamlHandler(yaml_path).read_yaml()
@@ -247,7 +224,6 @@ if __name__ == '__main__':
     backup_file = current_time + 'backup'
     
     field_to_file_dict = txt2dict(YS_dict_txt_path)
-    print(field_to_file_dict)
     
     head_height = eval(excel_style_config['head_height']) # yaml文件中读出的 20*26 是 str类型，需要转换
     height = eval(excel_style_config['height'])
@@ -270,10 +246,6 @@ if __name__ == '__main__':
     
     excel_append_process(file,file_temp,backup_path , backup_file, a, head_style, data_style, by_index=0)
     
-
-
-# In[ ]:
-
 
 
 

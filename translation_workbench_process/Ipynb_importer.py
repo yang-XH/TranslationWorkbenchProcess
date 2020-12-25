@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 import io, os,sys,types
 from IPython import get_ipython
 from nbformat import read

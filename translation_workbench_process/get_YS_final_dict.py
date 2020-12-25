@@ -1,13 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[3]:
-
-
 import Ipynb_importer
-
-
-# In[4]:
 
 
 from utils import *
@@ -24,9 +18,6 @@ from tqdm.auto import tqdm
 import logging
 import yaml
 import logging.config
-
-
-# In[5]:
 
 
 def get_YS_final_dict(YS_final_path, YS_final_files, YS_dict_txt_path, field_app_to_be_confirmed_txt_path, index0, index1):
@@ -77,10 +68,6 @@ def get_YS_final_dict(YS_final_path, YS_final_files, YS_dict_txt_path, field_app
     field_app_to_be_confirmed_file.close()        
     dict2txt(YS_dict_txt_path, field_to_file_dict)      
     return field_to_file_dict
-
-
-# In[ ]:
-
 
 if __name__ == '__main__':
     yaml_path = 'config.yaml'

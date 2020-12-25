@@ -1,14 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[123]:
-
-
 import Ipynb_importer # 可直接import ipynb
-
-
-# In[124]:
-
 
 import logging
 import ntpath
@@ -23,10 +16,6 @@ import yaml
 import logging.config
 import sys
 
-
-# In[7]:
-
-
 def getColumnIndex(table, columnName):
     columnIndex = None  
     for i in range(table.ncols):        
@@ -35,10 +24,6 @@ def getColumnIndex(table, columnName):
             break
     return columnIndex
 
-
-# In[1]:
-
-
 # 忽略隐藏文件的listdir，因为如果excel文件正在被打开，则自动保存~$开头的临时文件
 def listdir_nohidden(path):
     for f in os.listdir(path):
@@ -46,18 +31,11 @@ def listdir_nohidden(path):
             yield f
 
 
-# In[13]:
-
-
 def xlsx2xls(file):
     # win下路径的file
     file_without_postfix = ntpath.splitext(file)[0]
     file_xls = file_without_postfix + '.xls'
     return file_xls
-
-
-# In[3]:
-
 
 #打开excel文件
 def open_excel(file):
@@ -69,10 +47,6 @@ def open_excel(file):
         logging.error('Error', exc_info=True)
     return
 
-
-# In[4]:
-
-
 # 创建指定路径excel文件，指定格式
 def create_excel(file_path):
     path_xls = xlsx2xls(file_path)
@@ -80,10 +54,6 @@ def create_excel(file_path):
     sheet1 = workbook.add_sheet("sheet1")            #新建sheet
     workbook.save(path_xls)                         #保存
     return
-
-
-# In[5]:
-
 
 # 创建目录
 def mkdir(path):
@@ -111,10 +81,6 @@ def mkdir(path):
         #logging.info('%s 目录已存在', path)
         return False
 
-
-# In[6]:
-
-
 def excel_backup(file, backup_path, backup_file):
     workbook = open_excel(file)  # 打开工作簿
     new_workbook = copy(workbook)  # 将xlrd对象拷贝转化为xlwt对象
@@ -130,10 +96,6 @@ def excel_backup(file, backup_path, backup_file):
     print(os.path.abspath(file) + " 备份数据成功！\n")
     print('###########################################################################################################')
 
-
-# In[11]:
-
-
 def dict2txt(path,dict_temp):
     # 先创建并打开一个文本文件
     file = open(path, 'w', encoding='utf-8') # 指定编码格式，否则读取时中文乱码
@@ -146,10 +108,6 @@ def dict2txt(path,dict_temp):
 
     # 注意关闭文件
     file.close()
-
-
-# In[12]:
-
 
 def txt2dict(path):
     # 声明一个空字典，来保存文本文件数据
@@ -171,10 +129,6 @@ def txt2dict(path):
     file.close()
     return dict_temp
 
-
-# In[10]:
-
-
 def setup_logging(default_path='config.yaml', default_level=logging.INFO, log_file_name = 'excel_append.log'):
     yaml_path = default_path
     if os.path.exists(yaml_path):
@@ -185,10 +139,6 @@ def setup_logging(default_path='config.yaml', default_level=logging.INFO, log_fi
         logging.config.dictConfig(logging_config)
     else:
         logging.basicConfig(level=default_level)
-
-
-# In[118]:
-
 
 # TODO :跑不通
 def config_generate(yaml_path):
@@ -202,10 +152,5 @@ def config_generate(yaml_path):
         #print(type(excel_config[key]))
         print(key)
         exec('{}=1'.format(key))
-
-
-# In[ ]:
-
-
 
 
