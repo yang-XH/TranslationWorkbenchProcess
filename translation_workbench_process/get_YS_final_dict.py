@@ -23,7 +23,7 @@ import logging.config
 def get_YS_final_dict(YS_final_path, YS_final_files, YS_file_ignore, YS_dict_txt_path, field_app_to_be_confirmed_txt_path, index0, index1):
     # YS_final_files 是需要处理的各领域的文件夹名称（不是所有文件夹都需要处理）
     field_to_file_dict = {}
-    mkdir(field_app_to_be_confirmed_txt_path)
+    # open读取txt文件，没有则创建
     field_app_to_be_confirmed_file = open(field_app_to_be_confirmed_txt_path, 'w') # 不确定目标文件的条目
 
     for final_file in YS_final_files:
@@ -57,17 +57,31 @@ def get_YS_final_dict(YS_final_path, YS_final_files, YS_file_ignore, YS_dict_txt
                         if field_app is None:
                             continue
                         if field_app not in field_to_file_dict:
-                            field_to_file_dict[field_app] = temp_path
+                            field_to_file_dict[field_app] = [temp_path]
                         else:
-                            # 若有重复，则删除，保证字典中的条目都是已确定的，不确定的条目在确认其所属文件后，直接加入txt
-                            del field_to_file_dict[field_app]
-                            field_app_to_be_confirmed_file.write(str(field_app)+'\n')
+                            if isinstance(field_to_file_dict[field_app],str):
+                                print(field_app,'\n',field_to_file_dict[field_app])
+                            field_to_file_dict[field_app].append(temp_path)
                 else:
                     # 打印没有这两个字段的文件名，需要手动处理
                     logging.error('文件 %s 不存在 %s 和 %s 这两个字段', os.path.abspath(file), index0, index1)
+                    print('文件 {0} 不存在 {1} 和 {2} 这两个字段'.format(os.path.abspath(file), index0, index1))
         else:
             logging.error('路径 %s 不存在', os.path.join(YS_final_path, final_file))
             print('dir '+ os.path.join(YS_final_path, final_file) + ' not exists')
+    print(field_to_file_dict)
+    # RuntimeError: dictionary changed size during iteration → .copy()
+    #for field_app_temp in field_to_file_dict:
+    for field_app_temp in field_to_file_dict.copy():
+        # 在多于一个文件中出现的field_app，记录在field_app_to_be_confirmed.txt中
+        if len(field_to_file_dict[field_app_temp]) > 1:
+            field_app_to_be_confirmed_file.write(str(field_app_temp)+'\n')
+            for _file in field_to_file_dict[field_app_temp]:
+                field_app_to_be_confirmed_file.write('\t'+str(_file)+'\n')
+            del field_to_file_dict[field_app_temp]
+        else:
+            # 去除[]
+            field_to_file_dict[field_app_temp] = field_to_file_dict[field_app_temp][0]
     field_app_to_be_confirmed_file.close()        
     dict2txt(YS_dict_txt_path, field_to_file_dict)      
     return field_to_file_dict

@@ -1,80 +1,131 @@
-采购服务:合同-前端
-生产制造:工厂建模后端
-采购服务:寻源协同-前端
-财务管理:终端ERP前端
-财务管理:总账
-财务管理:核算服务前端
-财务管理:现金管理
-财务管理:财务-UI模版
-财务管理:财务公共
-采购供应:采购-UI模板
-财务管理:固定资产
-财务管理:财务基础档案前端
-财务管理:财务报表
-财务管理:应收管理
-财务管理:专项成本
-财务管理:存货核算
-财务管理:会计平台
-营销管理:B2C商城管理前端
-营销管理:自动化营销前端
-营销管理:B2C会员中心后端
-营销管理:B2C会员中心前端
-框架通用:MDD后端框架
-界面公共元素:IMP_IOT
-数字化建模:向导前端
-界面公共元素:MDD-FRAMEWORK
-界面公共元素:MDF-COMPONENTS
-界面公共元素:UCFORG
-界面公共元素:EXAMP
-界面公共元素:UIMG
-数字化建模:向导
-界面公共元素:UCFBASEDOC
-框架通用:imeta框架
-生产制造:生产订单-UI模板
-营销管理:销售管理-UI模板
-营销管理:B2C商城管理端-UI模板
-生产制造:物料需求计划-UI模板
-数字化建模:基础服务-UI模版
-研发管理:研发物料库管理-UI模板
-生产制造:工厂建模-UI模板
-采购供应:库存-UI模板
-界面公共元素:IMP_IOT
-数字化建模:打印模板内容
-数字化建模:打印模板管理
-数字化建模:云打印
-数字化建模:元数据
-财务管理:财务-UI模板
-采购供应:库存-UI模版
-数字化建模:基本档案-UI模板
 人力资源:组织管理-UI模板
-制造云-智能工厂:品质管理-UI模板
-数字化建模:系统管理
-营销管理:B2C会员中心-UI模板
-采购供应:采购-UI模版
-设备服务:设备服务-UI模板
-研发管理:文档服务-UI模板
-生产制造:工厂建模-UI模版
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-HR.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
 采购供应:采购-UI模板
-追溯服务:追溯服务-UI模板
-研发管理:研发建模服务-UI模板
-数字化建模:自定义项-UI模板
-营销管理:自动化营销-UI模板
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-供应链.xls
+	\\172.20.56.15\d\YS-Final\Finance\YS-财务管理.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+采购供应:库存-UI模版
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-供应链.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+采购供应:库存-UI模板
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-供应链.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+采购服务:寻源协同-前端
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-供应链.xls
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-采购服务.xls
+采购供应:采购-UI模版
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-供应链.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+采购服务:合同-前端
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-供应链.xls
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-采购服务.xls
 采购供应:内部交易-UI模板
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-供应链.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+生产制造:工厂建模后端
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-生产制造.xls
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-采购服务.xls
+生产制造:物料需求计划-UI模板
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-生产制造.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+生产制造:工厂建模-UI模版
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-生产制造.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+生产制造:工厂建模-UI模板
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-生产制造.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+生产制造:生产订单-UI模板
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-生产制造.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+制造云-智能工厂:品质管理-UI模板
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-生产制造.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
 制造云-智能工厂:辅助调度-UI模板
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-生产制造.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
 制造云-智能工厂:车间作业-UI模板
-财务管理:财务公共-UI模板
-营销管理:U零售-UI模版
-数字化建模:公共服务-UI模板
-数字化建模:基本档案-UI模版
-数字化建模:基础服务-UI模板
-营销管理:U零售-UI模板
-营销管理:销售管理-UI模版
-财务管理:财务公共-UI模版
-数字化建模:支撑服务-UI模板
-数字化建模:公式服务后端
-数字化建模:调度管理
-数字化建模:导入工具前端
-数字化建模:导入工具后端
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-生产制造.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+追溯服务:追溯服务-UI模板
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-设备服务-追溯服务-研发管理.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+研发管理:研发建模服务-UI模板
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-设备服务-追溯服务-研发管理.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+研发管理:研发物料库管理-UI模板
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-设备服务-追溯服务-研发管理.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+研发管理:文档服务-UI模板
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-设备服务-追溯服务-研发管理.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+设备服务:设备服务-UI模板
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-设备服务-追溯服务-研发管理.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
 数字化建模:系统管理
-数字化建模:组织管理
-数字化建模:供应商管理
+	\\172.20.56.15\d\YS-Final\Collab-HR-SCM-Purchasing\YS-采购服务.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-系统管理.xls
+财务管理:财务公共-UI模板
+	\\172.20.56.15\d\YS-Final\Finance\YS-财务管理.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+财务管理:财务公共-UI模版
+	\\172.20.56.15\d\YS-Final\Finance\YS-财务管理.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+财务管理:财务-UI模版
+	\\172.20.56.15\d\YS-Final\Finance\YS-财务管理.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+财务管理:财务-UI模板
+	\\172.20.56.15\d\YS-Final\Finance\YS-财务管理.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+数字化建模:基础服务-UI模版
+	\\172.20.56.15\d\YS-Final\Marketing\YS-营销服务-商品中心.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+营销管理:B2C会员中心-UI模板
+	\\172.20.56.15\d\YS-Final\Marketing\YS-营销服务-商城-订单-会员-定价.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+营销管理:销售管理前端
+	\\172.20.56.15\d\YS-Final\Marketing\YS-营销服务-商城-订单-会员-定价.xls
+	\\172.20.56.15\d\YS-Final\Marketing\YS-营销管理-U订货-销售-零售-自动化营销.xls
+营销管理:B2C商城管理端-UI模板
+	\\172.20.56.15\d\YS-Final\Marketing\YS-营销服务-商城-订单-会员-定价.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+营销管理:U零售-UI模板
+	\\172.20.56.15\d\YS-Final\Marketing\YS-营销管理-U订货-销售-零售-自动化营销.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+营销管理:销售管理-UI模版
+	\\172.20.56.15\d\YS-Final\Marketing\YS-营销管理-U订货-销售-零售-自动化营销.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+营销管理:自动化营销-UI模板
+	\\172.20.56.15\d\YS-Final\Marketing\YS-营销管理-U订货-销售-零售-自动化营销.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+营销管理:U零售-UI模版
+	\\172.20.56.15\d\YS-Final\Marketing\YS-营销管理-U订货-销售-零售-自动化营销.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+数字化建模:自定义项-UI模板
+	\\172.20.56.15\d\YS-Final\Marketing\YS-营销管理-U订货-销售-零售-自动化营销.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+营销管理:销售管理-UI模板
+	\\172.20.56.15\d\YS-Final\Marketing\YS-营销管理-U订货-销售-零售-自动化营销.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+界面公共元素:IMP_IOT
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-MDD-界面公共元素-IMETA-框架-友户通-登录.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-VPA-RPA-打印.xls
+数字化建模:公式服务后端
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-支撑服务-权限-翻译工作台-帮助中心-电子合同-消息.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+数字化建模:导入工具后端
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-支撑服务-权限-翻译工作台-帮助中心-电子合同-消息.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-系统管理.xls
+数字化建模:调度管理
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-支撑服务-权限-翻译工作台-帮助中心-电子合同-消息.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-系统管理.xls
+数字化建模:支撑服务-UI模板
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-支撑服务-权限-翻译工作台-帮助中心-电子合同-消息.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls
+数字化建模:导入工具前端
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-支撑服务-权限-翻译工作台-帮助中心-电子合同-消息.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-系统管理.xls
+数字化建模:基本档案-UI模版
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-支撑服务-权限-翻译工作台-帮助中心-电子合同-消息.xls
+	\\172.20.56.15\d\YS-Final\Digital Modeling\YS-数字化建模-档案-基础服务-模板-公式服务.xls

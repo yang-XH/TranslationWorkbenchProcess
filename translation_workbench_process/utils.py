@@ -97,8 +97,7 @@ def excel_backup(file, backup_path, backup_file):
     print('###########################################################################################################')
 
 def dict2txt(path,dict_temp):
-    # 先创建并打开一个文本文件
-    mkdir(path)
+    # open打开一个文本文件，没有则创建
     file = open(path, 'w', encoding='utf-8') # 指定编码格式，否则读取时中文乱码
 
     # 遍历字典的元素，将每项元素的key和value分拆组成字符串，注意添加分隔符和换行符
@@ -113,7 +112,9 @@ def dict2txt(path,dict_temp):
 def txt2dict(path):
     # 声明一个空字典，来保存文本文件数据
     dict_temp = {}
-
+    if not os.path.exists(path):
+        print('{} 保存YS_dict的txt文件不存在'.format(path))
+        return False
     # 打开文本文件,encoding='utf-8'中文
     file = open(path,'r',encoding='utf-8')
 
