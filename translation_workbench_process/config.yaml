@@ -11,7 +11,7 @@ YS_final_excel:
      - 简体中文(源)
      - English(译)
      - 备注
-    log_path: .  # log文件的路径（与需增添数据的文件路径不同）   
+    log_path: ..\translation_workbench_data  # log文件的路径（与需增添数据的文件路径不同）   
     pending_data_path: ..\translation_workbench_data # 待手动处理的数据的文件保存路径
     backup_path: \\172.20.56.15\d\YS-Final\backup
     # TODO 控制台输入待处理文件路径
