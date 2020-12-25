@@ -98,6 +98,7 @@ def excel_backup(file, backup_path, backup_file):
 
 def dict2txt(path,dict_temp):
     # 先创建并打开一个文本文件
+    mkdir(path)
     file = open(path, 'w', encoding='utf-8') # 指定编码格式，否则读取时中文乱码
 
     # 遍历字典的元素，将每项元素的key和value分拆组成字符串，注意添加分隔符和换行符

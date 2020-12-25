@@ -20,7 +20,9 @@ YS_final_excel:
      - Collab-HR-SCM-Purchasing
      - Finance
      - Marketing
-     - 数字化建模
+     - Digital Modeling
+    YS_file_ignore: # 遍历文件生成字典时需排除的文件
+     - YS-财务管理-预置数据.xls 
     YS_final_path: \\172.20.56.15\d\YS-Final
     YS_dict_txt_path: ..\translation_workbench_data\YS_dict.txt
     field_app_to_be_confirmed_txt_path: ..\translation_workbench_data\field_app_to_be_confirmed.txt
