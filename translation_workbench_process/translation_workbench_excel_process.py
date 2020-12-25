@@ -79,7 +79,7 @@ def write_xls_append(path, value, style=xlwt.XFStyle()):
 
 
 # 备份数据，并将新ecxel数据分类并入已存在的ecxel文件中 by_index：表的索引
-def excel_append_process(file= '../translation_workbench_data/未翻译内容1201+to+trans.xlsx',file_temp = '../translation_workbench_data/待确认的数据.xls',backup_path = r'\\172.20.56.15\d\YS-Final\backup',backup_file = 'backup_file', head=['产品线编码','领域编码','领域名称','应用编码','应用名称','资源编码','简体中文(源)','English(译)','备注'], head_style=xlwt.XFStyle(),data_style=xlwt.XFStyle(),by_index=0):
+def excel_append_process(file,file_temp,backup_path ,backup_file , XlwtStyleWriter, head_style,data_style,by_index=0):
     data = open_excel(file) #打开excel文件
     print(data)
     table = data.sheets()[by_index] #根据sheet序号来获取excel中的sheet
@@ -131,15 +131,15 @@ def excel_append_process(file= '../translation_workbench_data/未翻译内容120
         #head = table.row_values(0)
         # 创建file_temp文件
         create_excel(file_temp)
-        write_xls_append(file_temp, head, head_style)
-        write_xls_append(file_temp, data_list, data_style)
+        XlwtStyleWriter.write_xls_append(file_temp, [XlwtStyleWriter.headings], head_style, set_panes_frozen=True)
+        XlwtStyleWriter.write_xls_append(file_temp, data_list, data_style)
         logging.info('#################################################################################################################')
         print('有数据待处理，文件位于:{}'.format(os.path.abspath(file_temp)))
         logging.info('文件: %s 中有数据待处理', os.path.abspath(file_temp))
     for file in target_file_data_dict:
         # 备份需要更改的文件
         excel_backup(file, backup_path, backup_file)
-        write_xls_append(file, target_file_data_dict[file], data_style)     
+        XlwtStyleWriter.write_xls_append(file, target_file_data_dict[file], data_style)     
     
     return 
 
@@ -231,7 +231,7 @@ if __name__ == '__main__':
     #config_generate()
     index0 = excel_config['index0']
     index1 = excel_config['index1']
-    headings = excel_config['head']
+
     log_path = excel_config['log_path'] # log文件的路径（与需增添数据的文件路径不同）   
     pending_data_path = excel_config['pending_data_path'] # 待处理数据的文件路径
     backup_path = excel_config['backup_path']
@@ -247,12 +247,28 @@ if __name__ == '__main__':
     backup_file = current_time + 'backup'
     
     field_to_file_dict = txt2dict(YS_dict_txt_path)
+    print(field_to_file_dict)
+    
+    head_height = eval(excel_style_config['head_height']) # yaml文件中读出的 20*26 是 str类型，需要转换
+    height = eval(excel_style_config['height'])
+    width = [eval(x) for x in excel_style_config['width']]
+    head_style_dict = excel_style_config['head_style']
+    data_style_dict = excel_style_config['other_style']
+    headings = excel_config['headings']
+
+    a = XlwtStyleWriter()
+    a.height = height
+    a.hheight = head_height
+    a.headings = headings
+    a.width = width
+    head_style =  XlwtStyleWriter._convert_to_style(head_style_dict)
+    data_style = XlwtStyleWriter._convert_to_style(data_style_dict)
  
     #field_to_file_dict = {'人力资源:绩效管理前端':'../translation_workbench_data/test1.xls'} # './translation_workbench_data/test.xlsx'
     print('本次处理的文件为: {}\n'.format(os.path.abspath(file)))
     print('若存在处理不成功的数据，数据写入: {}\n'.format(os.path.abspath(file_temp)))
     
-    excel_append_process(file=file,file_temp=file_temp,backup_path = backup_path, backup_file=backup_file, head, head_style, data_style, by_index=0)
+    excel_append_process(file,file_temp,backup_path , backup_file, a, head_style, data_style, by_index=0)
     
 
 

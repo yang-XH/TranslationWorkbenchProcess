@@ -1,3 +1,16 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[3]:
+
+
+import Ipynb_importer
+
+
+# In[4]:
+
+
+from utils import *
 import time
 
 import xlrd
@@ -11,7 +24,10 @@ from tqdm.auto import tqdm
 import logging
 import yaml
 import logging.config
-#from translation_workbench_excel_process import *
+
+
+# In[5]:
+
 
 def get_YS_final_dict(YS_final_path, YS_final_files, YS_dict_txt_path, field_app_to_be_confirmed_txt_path, index0, index1):
     # YS_final_files 是需要处理的各领域的文件夹名称（不是所有文件夹都需要处理）
@@ -21,8 +37,8 @@ def get_YS_final_dict(YS_final_path, YS_final_files, YS_dict_txt_path, field_app
     for final_file in YS_final_files:
         if os.path.exists(os.path.join(YS_final_path, final_file)):
             for file in listdir_nohidden(os.path.join(YS_final_path, final_file)):
-                if not file.endswith(".xlsx") and not file.endswith(".xls"):
-                    # xlsx与csv文件内容相同，只需遍历其中一个
+                if not file.endswith(".xls"):
+                    # xlsx/xls与csv文件内容相同，只需遍历其中一个，且还有zip文件等
                     continue
                 # win linux 路径斜杠不兼容，用os.path.join，而不是写死左斜杠还是右斜杠
                 #temp_path = YS_final_path + '/'+ final_file +'/'+ file
@@ -52,78 +68,30 @@ def get_YS_final_dict(YS_final_path, YS_final_files, YS_dict_txt_path, field_app
                             # 若有重复，则删除，保证字典中的条目都是已确定的，不确定的条目在确认其所属文件后，直接加入txt
                             del field_to_file_dict[field_app]
                             field_app_to_be_confirmed_file.write(str(field_app)+'\n')
+                else:
+                    # 打印没有这两个字段的文件名，需要手动处理
+                    logging.error('文件 %s 不存在 %s 和 %s 这两个字段', os.path.abspath(file), index0, index1)
         else:
-            
+            logging.error('路径 %s 不存在', os.path.join(YS_final_path, final_file))
             print('dir '+ os.path.join(YS_final_path, final_file) + ' not exists')
     field_app_to_be_confirmed_file.close()        
     dict2txt(YS_dict_txt_path, field_to_file_dict)      
     return field_to_file_dict
 
-# 忽略隐藏文件的listdir，如果excel文件正在被打开，则自动保存~$开头的临时文件
-def listdir_nohidden(path):
-    for f in os.listdir(path):
-        if not f.startswith('~$'):
-            yield f
 
-#打开excel文件
-def open_excel(file):
-    try:
-        print(file)
-        data = xlrd.open_workbook(file)
-        return data
-    except Exception as e:
-        print(str(e))
-        logging.error('Error', exc_info=True)
-    return
+# In[ ]:
 
-def getColumnIndex(table, columnName):
-    columnIndex = None  
-    for i in range(table.ncols):        
-        if(table.cell_value(0, i) == columnName):
-            columnIndex = i
-            break
-    return columnIndex
 
-def dict2txt(path,dict_temp):
-    # 先创建并打开一个文本文件
-    file = open(path, 'w',encoding='utf-8') 
+if __name__ == '__main__':
+    yaml_path = 'config.yaml'
+    read_config = YamlHandler(yaml_path).read_yaml()
+    excel_config = read_config['YS_final_excel']
+    YS_final_files = excel_config['YS_final_files']
+    YS_final_path = excel_config['YS_final_path']
+    YS_dict_txt_path = excel_config['YS_dict_txt_path']
+    field_app_to_be_confirmed_txt_path = excel_config['field_app_to_be_confirmed_txt_path']
+    index0 = excel_config['index0']
+    index1 = excel_config['index1']
+    
+    file_to_field_dict = get_YS_final_dict(YS_final_path, YS_final_files, YS_dict_txt_path, field_app_to_be_confirmed_txt_path, index0, index1)
 
-    # 遍历字典的元素，将每项元素的key和value分拆组成字符串，注意添加分隔符和换行符
-    file.write("""# 第一次生成field2file字典时，使用get_YS_final_dict方法生成\n# 之后使用txt2dict方法直接读取txt得到field2file字典\n# 若对字典有增改，直接在txt末尾按格式加入新的key:value即可\n""")
-    for k,v in dict_temp.items():
-        # 文件名中有空格，因此txt中用中文的冒号：，将field与file名隔开
-        file.write(str(k)+'：'+str(v)+'\n')
-
-    # 注意关闭文件
-    file.close()
-
-def txt2dict(path):
-    # 声明一个空字典，来保存文本文件数据
-    dict_temp = {}
-
-    # 打开文本文件
-    file = open(path,'r',encoding='utf-8')
-
-    # 遍历文本文件的每一行，strip可以移除字符串头尾指定的字符（默认为空格或换行符）或字符序列
-    for line in file.readlines():
-        if not line.startswith('#'):
-            line = line.strip()
-            line = line.split('：')
-            k = line[0]
-            v = line[1]
-            dict_temp[k] = v
-
-    # 关闭文件
-    file.close()
-    return dict_temp
-
-if __name__=='__main__':
-    index0 = '领域名称'
-    index1 = '应用名称'
-    YS_final_files = ['Collab-HR-SCM-Purchasing','Finance','Marketing','数字化建模']
-    YS_final_path = r'\\172.20.56.15\d\YS-Final'
-    YS_dict_txt_path = 'YS_dict.txt'
-    field_app_to_be_confirmed_txt_path = 'field_app_to_be_confirmed.txt'
-    dict1 = get_YS_final_dict(YS_final_path, YS_final_files, YS_dict_txt_path, field_app_to_be_confirmed_txt_path, index0, index1)
-    dict2 = txt2dict(YS_dict_txt_path)
-    print(dict2)

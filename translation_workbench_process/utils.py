@@ -17,6 +17,7 @@ import time
 import xlrd # xlrd 版本1.2.0，高版本不能同时支持xlsx
 import xlwt
 from xlutils.copy import copy
+from config_handler import *
 from tqdm.auto import tqdm
 import yaml
 import logging.config
