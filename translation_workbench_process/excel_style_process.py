@@ -156,7 +156,7 @@ class XlwtStyleWriter(object):
         path_xls = xlsx2xls(path)
         rows_append_num = len(value)  # 获取需要写入数据的行数
         cols = len(value[0]) # 列数
-        workbook = open_excel(path)  # 打开工作簿
+        workbook = open_excel_with_format(path)  # 打开工作簿
         sheets = workbook.sheet_names()  # 获取工作簿中的所有表格
         worksheet = workbook.sheet_by_name(sheets[0])  # 获取工作簿中所有表格中的的第一个表格
         rows_origin_num = worksheet.nrows  # 获取表格中已存在的数据的行数
@@ -189,7 +189,7 @@ class XlwtStyleWriter(object):
         return
     
     def existing_xls_style_process(self, path, headings, head_style, data_style, set_panes_frozen=True):
-        data = open_excel(path) #打开excel文件
+        data = open_excel_with_format(path) #打开excel文件
         table = data.sheets()[0] #根据sheet序号来获取excel中的sheet
         nrows = table.nrows #行数
         ncols = table.ncols #列数 

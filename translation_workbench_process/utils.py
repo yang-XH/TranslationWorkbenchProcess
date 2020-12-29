@@ -38,9 +38,20 @@ def xlsx2xls(file):
     return file_xls
 
 #打开excel文件
-def open_excel(file):
+# 仅对xls文件可使用formatting_info属性
+def open_excel_with_format(file):
     try:
         data = xlrd.open_workbook(file, formatting_info=True) # 保证copy时，未更改数据保持原有excel的格式,formatting_info仅对xls文件有效
+        return data
+    except Exception as e:
+        print(str(e))
+        logging.error('Error', exc_info=True)
+    return
+
+#打开excel文件
+def open_excel(file):
+    try:
+        data = xlrd.open_workbook(file) 
         return data
     except Exception as e:
         print(str(e))
@@ -82,7 +93,7 @@ def mkdir(path):
         return False
 
 def excel_backup(file, backup_path, backup_file):
-    workbook = open_excel(file)  # 打开工作簿
+    workbook = open_excel_with_format(file)  # 打开工作簿
     new_workbook = copy(workbook)  # 将xlrd对象拷贝转化为xlwt对象
     logging.info('#################################################################################################################')
     # 创建文件夹，文件名应和原文件一样，而不是backup_file

@@ -8,6 +8,22 @@ from config_handler import *
 import os
 import xlrd
 
+def file_xlsx2xls(path):
+    if file.endswith(".xlsx"):
+        temp_path = os.path.join(YS_final_path, final_file, file)
+        temp_path_xls = xlsx2xls(temp_path)
+        workbook = open_excel(temp_path)  # 打开工作簿
+        new_workbook = copy(workbook)  # 将xlrd对象拷贝转化为xlwt对象
+        
+        # os.path.basename 得到路径中的除去目录的基本文件名称
+        # 保存为xls，防止WPS编辑过导致模板不对使得xlsx打不开的问题
+
+        new_workbook.save(temp_path_xls) # 保存工作簿
+    else:
+        logging.error('路径 %s 不存在', os.path.join(YS_final_path, final_file))
+        print('dir '+ os.path.join(YS_final_path, final_file) + ' not exists')    
+    return
+
 def YS_final_xlsx2xls(YS_final_path, YS_final_files):
     # YS_final_files 是需要处理的各领域的文件夹名称（不是所有文件夹都需要处理）
     for final_file in YS_final_files:
@@ -16,7 +32,7 @@ def YS_final_xlsx2xls(YS_final_path, YS_final_files):
                 if file.endswith(".xlsx"):
                     temp_path = os.path.join(YS_final_path, final_file, file)
                     temp_path_xls = xlsx2xls(temp_path)
-                    workbook = xlrd.open_workbook(temp_path)  # 打开工作簿
+                    workbook = open_excel(temp_path)  # 打开工作簿
                     new_workbook = copy(workbook)  # 将xlrd对象拷贝转化为xlwt对象
                     
                     # os.path.basename 得到路径中的除去目录的基本文件名称
